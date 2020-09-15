@@ -20,11 +20,11 @@ prontera,150,193,4	script	Reset Girl	4_F_TELEPORTER,{
 	set .@ResetBoth,9000;	// Zeny for resetting both together
 
 	mes "[Reset Girl]";
-	mes "I am the Reset Girl.";
-	mes "Reset Stats: "+ .@ResetStat +"z";
-	mes "Reset Skills: "+ .@ResetSkill +"z";
-	mes "Reset Both: "+ .@ResetBoth +"z";
-	mes "Please select the service you want:";
+	mes "Eu sei como resertar seus pontos.";
+	mes "Resetar Atributos: "+ .@ResetStat +"z";
+	mes "Resetar Habilidades: "+ .@ResetSkill +"z";
+	mes "Resetar os dois: "+ .@ResetBoth +"z";
+	mes "Escolhe um ai:";
 	next;
 	switch(select("^FF3355Reset Skills", "Reset Stats", "Reset Both^000000", "Cancel")) {
 	case 1:
