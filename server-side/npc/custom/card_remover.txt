@@ -1,0 +1,149 @@
+//===== Hercules Script ======================================
+//= Card Removal NPC
+//===== By: ==================================================
+//= TyrNemesis^
+//===== Current Version: =====================================
+//= 1.2a
+//===== Description: =========================================
+//= Removes cards from equipped items.
+//===== Additional Comments: =================================
+//= 1.0 First version. [TyrNemesis^]
+//= 1.2 Optimized and fixed getequipname menu. [Kisuka]
+//= 1.2a Added 'disable_items' command. [Euphy]
+//============================================================
+
+prt_in,28,73,4	script	Wise Old Woman#eAcustom	1_F_ORIENT_04,{
+
+	set .zenycost,200000; // Set base cost in zeny of the card remover services
+	set .percardcost,25000; // set cost per card of the card remover services
+	set .faildestroy,1; // Should the card remover have a chance of failure that destroys items? 1 = Yes, 0 = No.
+
+	disable_items;
+	mes "[Idosa Sabia]";
+	mes "Fala malandro, eu sei como remover cartas do seus equipamentos, ta interessado?";
+	next;
+	switch(select("Ai voce falou.", "Ta cobrando quanto velhote?", "To de boa, valeu.")) {
+	case 1:
+		mes "[Idosa Sabia]";
+		mes "Então beleza, qual item você tirar as cartas?";
+		next;
+
+		setarray .@position$[1], "Head","Body","Left hand","Right hand","Robe","Shoes","Accessory 1","Accessory 2","Head 2","Head 3";
+		set .@menu$,"";
+		for( set .@i,1; .@i <= 10; set .@i,.@i+1 )
+		{
+			if( getequipisequiped(.@i) )
+			set .@menu$, .@menu$ + .@position$[.@i] + "-" + "[" + getequipname(.@i) + "]";
+
+			set .@menu$, .@menu$ + ":";
+		}
+		set .@part,select(.@menu$);
+		if(!getequipisequiped(.@part)) {
+			mes "[Idosa Sabia]";
+			mes "Nao tem nenhuma carta ai ne.";
+			close;
+		}
+		if(getequipcardcnt(.@part) == 0) {
+			mes "[Idosa Sabia]";
+			mes "Nao tem nada ai, ta me achando com cara de palhaça?.";
+			close;
+		}
+		set .@cardcount,getequipcardcnt(.@part);
+
+		if (!checkweight(Knife_,(.@cardcount+1))) {
+			mes "^3355FFSo um segundinho";
+			mes "Nao vai dar";
+			mes "pra te ajudar porque";
+			mes "voce ta carregando muita";
+			mes "coisa. Coloca alguns itens la na";
+			mes "Kafra Storage and come again~";
+			close;
+		}
+		mes "[Idosa Sabia]";
+		mes "Esse item tem " + .@cardcount + " cartas associadas a ele. Pra fazer minha magica, vou te cobra " + (.zenycost+(.@cardcount * .percardcost)) + " zeny, a ^0000FFStar Crumb^000000, and a ^0000FFYellow Gemstone^000000.";
+		next;
+		if(select("Vai na fé.", "Esquece.") == 2) {
+			mes "[Idosa Sabia]";
+			mes "Beleza.Volte sempre.";
+			close;
+		}
+		if((Zeny < (.zenycost+(.@cardcount * .percardcost))) || (countitem(Star_Crumb) < 1) || (countitem(Yellow_Gemstone) < 1)) {
+			mes "[Idosa Sabia]";
+			mes "Voce precisa cumprimir com a sua parte do acordo e me dar o que eu pedi.";
+			close;
+		}
+		mes "[Idosa Sabia]";
+		mes "Antes deu começar, fique sabendo que se algo der errado é problema seu;
+		switch(select("Pô, então mudei de ideia sobre", "o item.", "e as cartas.")) {
+		case 1:
+			mes "[Idosa Sabia]";
+			mes "Beleza entao. Volte sempre";
+			close;
+		case 2:
+			set .@failtype,1;
+			break;
+		case 3:
+			set .@failtype,2;
+		}
+		mes "[Idosa Sabia]";
+		mes "Entao vamo iniciar a magica.";
+		Zeny -= (.zenycost+(.@cardcount * .percardcost));
+		delitem 1000,1;
+		delitem 715,1;
+
+		// Replace the constants in the next 3 lines with failure chance values defined in refine_db.txt
+		// First value = Total failure chance (item and cards destroyed)
+		// Second value = Partial failure chance (one or the other is destroyed, player decides which one is safe)
+		// Third value = Harmless failure chance (all that's lost is your investment)
+
+		set .@failchance,rand(100);
+		if (.faildestroy==1) {
+			if(.@failchance < 2) {
+				next;
+				failedremovecards .@part,0;
+				mes "[Idosa Sabia]";
+				mes "Deu tudo errado, voce perdeu tudo.";
+				close;
+			}
+
+			if(.@failchance < 8) {
+				if (.@failtype == 1) {
+					next;
+					failedremovecards .@part,1;
+					mes "[Idosa Sabia";
+					mes "Ate consegui tirar as cartas, mas o seu itens ja era.";
+					close;
+				}
+
+				if (.@failtype == 2) {
+					next;
+					failedremovecards .@part,2;
+					mes "[Idosa Sabia]";
+					mes "Tirei as cartas, mas seu item foi destruido.";
+					close;
+				}
+			}
+		}
+
+		if(.@failchance < 10) {
+			next;
+			failedremovecards .@part,3;
+			mes "[Idosa Sabia]";
+			mes "Nao deu pra te ajudar, mas pelo menos seus itens nao foram destruidos.";
+			close;
+		}
+		next;
+		successremovecards .@part;
+		mes "[Idosa]";
+		mes "Olha que sortudo, deu tudo certo!";
+		close;
+	case 2:
+		mes "[Idosa Sabia]";
+		mes "Eu cobro uma taxa padrao de "+.zenycost+" zeny, plus "+.percardcost+" zeny para cada carta removida. Alem disso, vou precisar de uma star crumb e uma yellow gemstone.";
+		close;
+	case 3:
+		mes "[Idosa Sabia]";
+		mes "Ta bem. Volte Sempre.";
+		close;
+	}
+}
