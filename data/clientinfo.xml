@@ -8,10 +8,10 @@
 	<extendedslot></extendedslot>
 	<readfolder></readfolder>
 	<connection>
-		<display>Hist Amigos Ragnarok</display> 
-		<desc>Hist Amigos Ragnarok</desc> 
-		<balloon>Hist Amigos Ragnarok</balloon> 
-		<address>191.185.133.145</address> 
+		<display>Ragnarok Server</display> 
+		<desc>Ragnarok Server</desc> 
+		<balloon>Ragnarok Server</balloon> 
+		<address>YourIP</address> 
 		<port>6900</port> 
 		<version>20</version>
 		<langtype>12</langtype>		
