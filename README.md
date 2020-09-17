@@ -2,7 +2,7 @@
  ## A client-side and server-side translation for Ragnarok to Brazilian Portuguese
 
 
--This translation was made using assets from bRO client and with the help of some files scattered in rAthena forums.
+### The client-side translation was made using assets from bRO client and with the help of some files scattered in rAthena forums.
 
 I packed the client-side translation into 2 folders: 
 
@@ -19,7 +19,7 @@ I'm working on that and as I progress i will share the files here.
 Any questions i'm on rAthena discord support chat.
 
 
--A tradução client-side foi feita usando arquivos do cliente do bRO e com alguns arquivos que encontrei nos forums do rAthena.
+### A tradução client-side foi feita usando arquivos do cliente do bRO e com alguns arquivos que encontrei nos forums do rAthena.
 
 Dividi a tradução do cliente em 2 partes
 
@@ -28,7 +28,7 @@ Dividi a tradução do cliente em 2 partes
 
 -Se você quiser voce pode usar a pasta data para criar um arquivo .grf contendo as traduções em português e usar 
 no seu cliente ao inves de usar uma pasta data para as traduções
-**Não se esqueça de diffar o seu arquivo Ragexe com alguma ferramenta como o Nemo e corrigir o caminho dos arquivos .lub
+**Não se esqueça de diffar o seu arquivo Ragexe com alguma ferramenta como o Nemo e corrigir o caminho dos arquivos .lub**
 
 **Obs: Para traduzir os NPCs é necessário modificar os arquivos do servidor, na pasta "seuEmulador/npc". 
 Ja comecei a fazer isso e estarei feliz e estou compartilhando a medida em que estou conseguindo traduzir.**
