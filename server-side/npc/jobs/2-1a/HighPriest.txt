@@ -1,0 +1,101 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  Vicious
+//= Copyright (C)  Lupus
+//= Copyright (C)  Nana
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= High Priest Jobchanger
+//================= Description ===========================================
+//= Advance Class jobchanger after kRO Normals.
+//================= Current Version =======================================
+//= 1.3
+//=========================================================================
+
+valkyrie,44,42,5	script	High Priest#Valkyrie	1_M_PASTOR,{
+	if (ADVJOB == 0 || Upper != 1) {
+		.@karma_d = rand(1,10);
+		if (.@karma_d > 4) {
+			mes "[High Priest]";
+			mes "Congratulations.";
+			mes "Honor to the warriors!";
+			close;
+		}
+		mes "[High Priest]";
+		mes "Through the power";
+		mes "of holiness, may we";
+		mes "find peace, strength";
+		mes "and protection. Deliver";
+		mes "us from the forces of evil...";
+		close;
+	}
+	else if (ADVJOB == Job_High_Priest && Class == Job_Acolyte_High && JobLevel > 39) {
+		mes "[High Priest]";
+		mes "Our world is in";
+		mes "need of people of";
+		mes "talent and conviction.";
+		mes "Please continue your";
+		mes "good works as an even";
+		mes "greater hero of holiness...";
+		next;
+		mes "[High Priest]";
+		mes "Would you like";
+		mes "to become a High Priest?";
+		next;
+		if (select("No.", "Yes.") == 1) {
+			mes "[High Priest]";
+			mes "When you're ready,";
+			mes "feel free to come back.";
+			mes "Honor to the warriors!";
+			close;
+		}
+		if (SkillPoint) {
+			mes "[High Priest]";
+			mes "It is still possible for you to learn more skills. Please use";
+			mes "all of your remaining Skill Points before returning to me.";
+			close;
+		}
+		jobchange Job_High_Priest;
+		ADVJOB = 0;
+		mes "[High Priest]";
+		mes "Congratulations.";
+		mes "As a High Priest,";
+		mes "I hope you will guide";
+		mes "others upon the path";
+		mes "to holiness...";
+		close;
+	}
+	mes "[High Priest]";
+	mes "Welcome";
+	mes "to Valhalla,";
+	mes "the Hall of Honor.";
+	next;
+	mes "[High Priest]";
+	mes "Please make";
+	mes "yourself comfortable";
+	mes "while you are here.";
+	mes "Honor to the warriors!";
+	close;
+}

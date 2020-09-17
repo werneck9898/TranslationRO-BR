@@ -1,0 +1,168 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  Samuray22
+//= Copyright (C)  L0ne_W0lf
+//= Copyright (C)  Kisuka
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Gym Pass Cash Item NPC
+//================= Description ===========================================
+//= Exchange Gym Passes to learn "Enlarge Weight Limit"
+//= iRO NPC situated in Payon beside Kafra Shop.
+//================= Current Version =======================================
+//= 1.3
+//=========================================================================
+
+payon,173,141,4	script	Ripped Cabus#GymPass	4_M_HUMAN_02,{
+	mes "[Ripped]";
+	mes "Hey, there. People aren't";
+	mes "as physically active as they";
+	mes "used to be. Even if you fight";
+	mes "for a living, your body might";
+	mes "be weak and flabby in some";
+	mes "areas. Know what I mean?";
+	next;
+	mes "[Ripped]";
+	mes "Hey, train with me, and I can";
+	mes "guarantee that you'll be able";
+	mes "to lift and carry more of your";
+	mes "stuff. Just gimme your";
+	mes "^FF0000Gym Pass^000000 each time,";
+	mes "and we'll be good to go.";
+	next;
+	mes "[Ripped]";
+	mes "But don't get too excited:";
+	mes "no matter how much training";
+	mes "I take you through, you can";
+	mes "overdo it. You ever hear of";
+	mes "anyone that got too buff?";
+	mes "That's cuz they're dead. See?";
+	next;
+	mes "[Ripped]";
+	mes "I'd say that it'd be safe";
+	mes "for you to seriously train";
+	mes "with me and increase your";
+	mes "item carrying capacity ^FF000010 times^000000.";
+	mes "So... Are you ready to sweat?";
+	next;
+	switch(select("Yes", "No", "Um, my workouts wore off.")) {
+	case 1:
+		if (gympassmemory < 10) {
+			.@add_carry = gympassmemory + 1;
+			.@remain_carry = 10 - .@add_carry;
+			if (countitem(Max_Weight_Up_Scroll) > 0) {
+				mes "[Ripped]";
+				mes "Oh, awesome, I see you";
+				mes "brought your Gym Pass.";
+				mes "Alright, just do what I do,";
+				mes "and try to feel the burn.";
+				mes "Ready? Let's do this.";
+				next;
+				specialeffect(EF_EARTHSPIKE, AREA, playerattached());
+				next;
+				specialeffect(EF_DEVIL, AREA, playerattached());
+				next;
+				specialeffect(EF_COIN, AREA, playerattached());
+				next;
+				specialeffect(EF_SIGHTRASHER, AREA, playerattached());
+				next;
+				mes "[Ripped]";
+				mes "There, you should be able";
+				mes "to carry more stuff with you.";
+				mes "Let's see, we can increase";
+				mes "your item carrying capacity";
+				mes "^FF00000" + .@remain_carry + "^000000 more times if we continue";
+				mes "training together like this.";
+				delitem Max_Weight_Up_Scroll,1;
+				gympassmemory = .@add_carry;
+				skill ALL_INCCARRY,.@add_carry,3;
+				close;
+			}
+			else {
+				mes "[Ripped]";
+				mes "Dude, what'd I tell you?";
+				mes "You gotta bring me your";
+				mes "^FF0000Gym Pass^000000 if you wanna";
+				mes "work out, and build up your";
+				mes "item carrying muscles.";
+				close;
+			}
+		}
+		else {
+			mes "[Ripped]";
+			mes "Dude, I don't think we can";
+			mes "build up your item carrying";
+			mes "muscles anymore than that.";
+			mes "It's too dangerous for your";
+			mes "body if we even tried! C'mon,";
+			mes "I told you about the limits.";
+			close;
+		}
+	case 2:
+		mes "[Ripped]";
+		mes "Aw, that's too bad.";
+		mes "Well, come back if you";
+		mes "change your mind. Tell";
+		mes "your friends about me:";
+		mes "if they're flabby, I'll help";
+		mes "get them in shape.";
+		close;
+	case 3:
+		if (gympassmemory > 0) {
+			mes "[Ripped]";
+			mes "What happened?";
+			mes "You let your item carrying";
+			mes "muscles just atrophy? Lucky";
+			mes "for you, there's such a thing";
+			mes "as muscle memory. It's won't take";
+			mes "as long to build 'em back up...";
+			next;
+			specialeffect(EF_EARTHSPIKE, AREA, playerattached());
+			next;
+			specialeffect(EF_DEVIL, AREA, playerattached());
+			next;
+			specialeffect(EF_COIN, AREA, playerattached());
+			next;
+			specialeffect(EF_SIGHTRASHER, AREA, playerattached());
+			next;
+			mes "[Ripped]";
+			mes "How about that?";
+			mes "Your item carrying";
+			mes "muscles grew back,";
+			mes "just like that! Try not to";
+			mes "wimp out again, okay?";
+			skill "ALL_INCCARRY",gympassmemory,3;
+			close;
+		}
+		else {
+			mes "[Ripped]";
+			mes "Uhh...";
+			mes "We didn't work out";
+			mes "together before.";
+			mes "I'm sure about that.";
+			close;
+		}
+	}
+}

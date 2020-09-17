@@ -1,0 +1,45 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  L0ne_W0lf
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Splendide Field Warp Script
+//================= Description ===========================================
+//= Warp Points for Splendide
+//================= Current Version =======================================
+//= 1.2
+//=========================================================================
+
+spl_fild02,382,143,0	warp	spl_fild02-2	1,1,mid_camp,16,143
+spl_fild02,383,216,0	warp	spl_fild02-4	1,1,mid_camp,12,215
+spl_fild02,310,10,0	warp	spl_fild02-5	1,1,spl_fild03,306,376
+spl_fild03,99,373,0	warp	spl_fild02-6	1,1,spl_fild02,102,32
+spl_fild03,306,379,0	warp	spl_fild03-1	1,1,spl_fild02,311,12
+spl_fild02,103,30,0	warp	spl_fild03-2	1,1,spl_fild03,99,370
+
+spl_fild01,289,28,0	warp	spl_fild01-1	1,1,spl_fild02,292,377
+spl_fild02,6,241,0	warp	spl_fild02-7	1,1,splendide,386,251
+splendide,388,252,0	warp	spl_fild02-8	1,1,spl_fild02,8,241
+spl_fild02,293,379,0	warp	spl_fild02-9	1,1,spl_fild01,289,30

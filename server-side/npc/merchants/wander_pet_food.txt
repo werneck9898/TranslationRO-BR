@@ -1,0 +1,95 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  rAthena Dev Team
+//= Copyright (C)  eAthena Dev Team
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Spirit Liquor trader.
+//================= Description ===========================================
+//= Trade Broken Liquor Jars and alcohol for wanderer pet food, 'Spirit
+//= Liquor'
+//================= Current Version =======================================
+//= 1.0
+//=========================================================================
+
+prontera,218,218,3	script	Pet Enthusiast	4W_KID,{
+	mes "[Pet Enthusiast Jenny]";
+	mes "Oh, Hi there!";
+	mes "Are you a lover of animals like I am?";
+	next;
+	mes "[Pet Enthusiast Jenny]";
+	mes "I know that it's really hard to keep your cute pets happy.";
+	mes "All it takes is the right kind of food.";
+	next;
+	mes "[Pet Enthusiast Jenny]";
+	mes "I know that sometimes it is really hard to get the right food for your pet.";
+	next;
+	mes "[Pet Enthusiast Jenny]";
+	mes "Do you have any food that you are looking for?";
+	next;
+	switch(select("Yes", "No")) {
+	case 1:
+		if ((countitem(Broken_Wine_Vessel) > 19) && (countitem(Alchol) > 0)) {
+			mes "[Pet Enthusiast Jenny]";
+			mes "Oh, you have ^ff000020 Broken Liquor Jar^000000s and ^ff00001 Alcohol^000000!";
+			mes "Do you want to exchange them for";
+			mes "^ff000020 Spirit Liquor^000000 for your Wanderer pet?";
+			next;
+			switch(select("Yes, please!", "No thank you.")) {
+			case 1:
+				mes "[Pet Enthusiast Jenny]";
+				mes "Ok here you go then.";
+				mes "I hope it keeps your";
+				mes "cute pet happy.";
+				delitem Broken_Wine_Vessel,20;
+				delitem Alchol,1;
+				getitem Spirit_Liquor,20;
+				close;
+			case 2:
+				mes "[Pet Enthusiast Jenny]";
+				mes "Hehe, well just let me know if you change your mind.";
+				close;
+			}
+		}
+		else {
+			mes "[Pet Enthusiast Jenny]";
+			mes "Actually, right now I can help you get Spirit Liquor for Wanderer pets.";
+			next;
+			mes "[Pet Enthusiast Jenny]";
+			mes "All you have to do is bring me ^FF0000 20 Broken Liquor Jars^000000 and ^FF0000 1 Alcohol^000000.";
+			mes "I can give you ^FF0000 20 Spirit Liquor^000000 for that.";
+			next;
+			mes "You can get the Broken Liquor Jars from Tengu monsters in Amatsu dungeon.";
+			close;
+		}
+	case 2:
+		close;
+	}
+}
+
+prontera,220,218,3	script	Berry Toe	4_DONKEY,{
+	specialeffect EF_CHANGEDARK;
+	end;
+}

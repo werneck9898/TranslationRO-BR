@@ -1,0 +1,60 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  L0ne_W0lf
+//= Copyright (C)  Playtester
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Rachel Sanctuary Dungeon Warp Script
+//================= Description ===========================================
+//= Warp Points For Rachel Sanctuary Dungeon
+//================= Current Version =======================================
+//= 1.4
+//=========================================================================
+
+ra_san01,139,13,0	script	sanctuary01	WARPNPC,1,1,{
+	if (ra_tem_q == 21) { warp "que_san04",119,110; end; }
+	switch(rand(3)) {
+		case 1:  warp "ra_san02",213,275; break;
+		case 2:  warp "ra_san03",119,283; break;
+		default: warp "ra_san04",119,110; break;
+	}
+}
+
+ra_san02,213,280,0	warp	sanctuary02	1,1,ra_san01,140,19
+ra_san03,123,283,0	warp	sanctuary03	1,1,ra_san01,140,19
+ra_san04,119,104,0	warp	sanctuary04	1,1,ra_san01,140,19
+ra_san03,279,21,0	warp	sanctuary05	1,1,ra_san05,282,149
+ra_san03,85,15,0	warp	sanctuary06	1,1,ra_san04,203,216
+ra_san04,203,221,0	warp	sanctuary07	1,1,ra_san03,85,20
+ra_san04,120,48,0	warp	sanctuary08	1,1,ra_san05,150,282
+ra_san05,150,7,0	warp	sanctuary09	1,1,ra_temple,119,153
+ra_san02,289,149,0	warp	sanctuary10	1,1,ra_san03,10,149
+ra_san03,5,149,0	warp	sanctuary11	1,1,ra_san02,284,149
+ra_san02,213,4,0	warp	sanctuary12	1,1,ra_san04,35,216
+ra_san04,35,221,0	warp	sanctuary13	1,1,ra_san02,213,9
+ra_san02,30,21,0	warp	sanctuary14	1,1,ra_san05,14,149
+
+//Additional Dungeon warp. (Exit)
+ra_san01,139,139,0	warp	sanctuary15	1,1,ra_temin,27,314

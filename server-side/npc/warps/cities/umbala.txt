@@ -1,0 +1,58 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  L0ne_W0lf
+//= Copyright (C)  Nana
+//= Copyright (C)  Akaru
+//= Copyright (C)  Athena
+//= Copyright (C)  Darkchild
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Umbala Warp Script
+//================= Description ===========================================
+//= Warp Points for Umbala
+//================= Current Version =======================================
+//= 1.3
+//=========================================================================
+
+umbala,68,253,0	warp	um_chief1-1	1,1,um_in,38,113
+um_in,38,110,0	warp	um_chief1-2	1,1,umbala,66,250
+umbala,138,129,0	warp	um_tool1-1	1,1,um_in,99,114
+um_in,99,111,0	warp	um_tool1-2	1,1,umbala,136,127
+umbala,125,157,0	warp	um_weapon1-1	1,1,um_in,155,114
+um_in,155,111,0	warp	um_weapon1-2	1,1,umbala,126,154
+umbala,94,186,0	warp	um_houseA1-1	1,1,um_in,141,42
+um_in,141,39,0	warp	um_houseA1-2	1,1,umbala,94,183
+umbala,100,203,0	warp	um_houseA2-1	1,1,um_in,163,69
+um_in,166,69,0	warp	um_houseA2-2	1,1,umbala,102,205
+umbala,107,130,0	warp	um_houseB1-1	1,1,um_in,99,66
+um_in,99,63,0	warp	um_houseB1-2	1,1,umbala,108,127
+umbala,220,189,0	script	um_shaman1-1	WARPNPC,1,1,{
+OnTouch:
+	if (event_umbala == 7) {
+		warp "um_in",32,71;
+	}
+	end;
+}
+um_in,29,71,0	warp	um_shaman2-1	1,1,umbala,217,186

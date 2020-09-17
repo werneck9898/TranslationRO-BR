@@ -1,0 +1,46 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  SinSloth
+//= Copyright (C)  Playtester
+//= Copyright (C)  Silent
+//= Copyright (C)  Poki#3
+//= Copyright (C)  birkiczd
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Odin Temple Warp Script
+//================= Description ===========================================
+//= Warp Points for Odin Temple
+//================= Current Version =======================================
+//= 1.4
+//=========================================================================
+
+odin_tem01,378,182,0	warp	odin01	1,1,odin_tem02,28,180
+odin_tem02,21,180,0	warp	odin02	1,1,odin_tem01,373,182
+odin_tem01,383,334,0	warp	odin03	1,1,odin_tem02,27,334
+odin_tem02,21,334,0	warp	odin04	1,1,odin_tem01,379,334
+odin_tem02,153,349,0	warp	odin05	1,1,odin_tem03,120,54
+odin_tem03,121,49,0	warp	odin06	1,1,odin_tem02,154,345
+odin_tem02,261,377,0	warp	odin07	1,1,odin_tem03,247,40
+odin_tem03,247,34,0	warp	odin08	1,1,odin_tem02,263,372

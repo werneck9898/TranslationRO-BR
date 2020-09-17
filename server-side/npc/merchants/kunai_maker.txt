@@ -1,0 +1,124 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  rAthena Dev Team
+//= Copyright (C)  Euphy
+//= Copyright (C)  eAthena Dev Team
+//= Copyright (C)  Kisuka
+//= Copyright (C)  ultramage
+//= Copyright (C)  Playtester
+//= Copyright (C)  erKURITA
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Kunai Merchant Kashin
+//================= Description ===========================================
+//= Trades a few shurikens + ninja stones for elemental kunai.
+//================= Current Version =======================================
+//= 1.3a
+//=========================================================================
+
+que_ng,72,29,3	script	Kunai Merchant Kashin	4_M_01,{
+	if(BaseClass == Job_Ninja) {
+		mes "[Kashin]";
+		mes "I am Kashin, distributor";
+		mes "of Kunai for Ninjas. Take";
+		mes "a look around and let me";
+		mes "know if you're interested";
+		mes "in any of my wares.";
+		next;
+		switch(select("10 Fell Poison Kunai", "10 Icicle Kunai", "10 High Wind Kunai", "10 Black Earth Kunai", "10 Heat Wave Kunai", "Cancel")) {
+		case 1: callfunc "Kunai_Trade",13250,20,7524,1,13259; break;
+		case 2: callfunc "Kunai_Trade",13251,8,7522,2,13255; break;
+		case 3: callfunc "Kunai_Trade",13252,4,7523,2,13257; break;
+		case 4: callfunc "Kunai_Trade",13253,2,7524,1,13256; break;
+		case 5: callfunc "Kunai_Trade",13254,1,7521,2,13258; break;
+		case 6:
+			mes "[Kashin]";
+			mes "Well then, thank you";
+			mes "for visiting my shop.";
+			mes "Please come to me when";
+			mes "you need to buy some";
+			mes "Kunais. Goodbye for now~";
+			close;
+		}
+	}
+	mes "[Kashin]";
+	mes "I am Kashin, distributor";
+	mes "of Kunai for Ninjas. If you";
+	mes "have any friends that are";
+	mes "Ninjas, then you might";
+	mes "want to tell them about me.";
+	close;
+}
+
+function	script	Kunai_Trade	{
+	mes "[Kashin]";
+	mes "You can exchange";
+	mes ""+getarg(1)+" "+getitemname(getarg(0))+" and";
+	mes ""+getarg(3)+" "+getitemname(getarg(2))+" for every";
+	mes "set of 10 "+getitemname(getarg(4))+".";
+	next;
+	mes "[Kashin]";
+	mes "I can only give you a maximum of 500 sets of Kunais at a time.";
+	mes "If you want to cancel the trade, then please enter ''0.'' How many";
+	mes "Kunai sets would you like?";
+	next;
+	input .@amount;
+	if(.@amount < 1 || .@amount > 500) {
+		mes "[Kashin]";
+		mes "Eh? I'm sorry, but";
+		mes "I can't give you that";
+		mes "many Kunai sets. Please";
+		mes "enter a value less than 500.";
+		close;
+	}
+	if(countitem(getarg(0)) < .@amount*getarg(1) || countitem(getarg(2)) < .@amount*getarg(3)) {
+		mes "[Kashin]";
+		mes "Hmm, you don't have";
+		mes "enough items for this";
+		mes "Kunai exchange. Please";
+		mes "check your items again.";
+		close;
+ 	}
+	if(checkweight(getarg(4), .@amount*10) == 0) {
+		mes "[Kashin]";
+		mes "Hmm, it seems like your";
+		mes "Inventory doesn't have";
+		mes "enough space to store";
+		mes "more items. You better";
+		mes "free up some space first.";
+		close;
+	}
+	mes "[Kashin]";
+	mes "Great, everything is in";
+	mes "order, so let's go ahead";
+	mes "and complete this trade.";
+	mes "I'm sure that you'll be";
+	mes "quite satisfied with";
+	mes "these Kunais.";
+	delitem getarg(0),getarg(1)*.@amount;
+	delitem getarg(2),getarg(3)*.@amount;
+	getitem getarg(4),10*.@amount;
+	close;
+}

@@ -1,0 +1,120 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2013-2015  Hercules Dev Team
+//= Copyright (C)  Ind
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Mapflag: Zone.
+//================= Current Version =======================================
+//= 1.0
+//================= Description ===========================================
+//= Flags maps as part of zones defined in map_zone_db.txt
+//=========================================================================
+
+//Aldebaran Turbo Track
+alde_tt02	mapflag	zone	Aldebaran Turbo Track
+turbo_n_1	mapflag	zone	Aldebaran Turbo Track
+turbo_n_4	mapflag	zone	Aldebaran Turbo Track
+turbo_n_8	mapflag	zone	Aldebaran Turbo Track
+turbo_n_16	mapflag	zone	Aldebaran Turbo Track
+turbo_e_4	mapflag	zone	Aldebaran Turbo Track
+turbo_e_8	mapflag	zone	Aldebaran Turbo Track
+turbo_e_16	mapflag	zone	Aldebaran Turbo Track
+
+//Jail
+sec_pri	mapflag	zone	Jail
+
+//Izlude Battle Arena
+force_1-1	mapflag	zone	Izlude Battle Arena
+force_2-1	mapflag	zone	Izlude Battle Arena
+force_3-1	mapflag	zone	Izlude Battle Arena
+force_4-1	mapflag	zone	Izlude Battle Arena
+force_5-1	mapflag	zone	Izlude Battle Arena
+force_1-2	mapflag	zone	Izlude Battle Arena
+force_1-3	mapflag	zone	Izlude Battle Arena
+prt_are_in	mapflag	zone	Izlude Battle Arena
+
+//Sealed Shrine ==================
+1@cata	mapflag	zone	Sealed Shrine
+2@cata	mapflag	zone	Sealed Shrine
+
+//Endless Tower ==================
+1@tower	mapflag	zone	Memorial Dungeon
+2@tower	mapflag	zone	Memorial Dungeon
+3@tower	mapflag	zone	Memorial Dungeon
+4@tower	mapflag	zone	Memorial Dungeon
+5@tower	mapflag	zone	Memorial Dungeon
+6@tower	mapflag	zone	Memorial Dungeon
+
+//Orc's Memory ===================
+1@orcs	mapflag	zone	Memorial Dungeon
+2@orcs	mapflag	zone	Memorial Dungeon
+
+// Nidhoggr's Instance ===========
+1@nyd	mapflag	zone	Memorial Dungeon
+2@nyd	mapflag	zone	Memorial Dungeon
+
+//Towns
+alberta	mapflag	zone	Towns
+aldebaran	mapflag	zone	Towns
+amatsu	mapflag	zone	Towns
+ayothaya	mapflag	zone	Towns
+brasilis	mapflag	zone	Towns
+comodo	mapflag	zone	Towns
+einbroch	mapflag	zone	Towns
+einbech	mapflag	zone	Towns
+geffen	mapflag	zone	Towns
+gonryun	mapflag	zone	Towns
+izlude	mapflag	zone	Towns
+jawaii	mapflag	zone	Towns
+hugel	mapflag	zone	Towns
+lighthalzen	mapflag	zone	Towns
+louyang	mapflag	zone	Towns
+manuk	mapflag	zone	Towns
+mid_camp	mapflag	zone	Towns
+moc_ruins	mapflag	zone	Towns
+morocc	mapflag	zone	Towns
+moscovia	mapflag	zone	Towns
+niflheim	mapflag	zone	Towns
+prontera	mapflag	zone	Towns
+payon	mapflag	zone	Towns
+pay_arche	mapflag	zone	Towns
+rachel	mapflag	zone	Towns
+splendide	mapflag	zone	Towns
+umbala	mapflag	zone	Towns
+veins	mapflag	zone	Towns
+xmas	mapflag	zone	Towns
+yuno	mapflag	zone	Towns
+
+// WoE SE
+arug_cas01	mapflag	zone	GvG2
+arug_cas02	mapflag	zone	GvG2
+arug_cas03	mapflag	zone	GvG2
+arug_cas04	mapflag	zone	GvG2
+arug_cas05	mapflag	zone	GvG2
+schg_cas01	mapflag	zone	GvG2
+schg_cas02	mapflag	zone	GvG2
+schg_cas03	mapflag	zone	GvG2
+schg_cas04	mapflag	zone	GvG2
+schg_cas05	mapflag	zone	GvG2

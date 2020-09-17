@@ -1,0 +1,108 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  Lupus
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Novice's Guild Castles War of Emperium Usher NPC
+//================= Description ===========================================
+//= Novice's Guild Castles War of Emperium Usher NPC
+//================= Current Version =======================================
+//= 1.7
+//================= Additional Comments ===================================
+//= Now you have access to 4 N Guild castles. They don't have dungeons. And
+//= 2nd Classes can't seize these Castles.
+//= These new castles need a new strategy. It would bring some fun and live
+//= to your game.
+//= NOTE: If your Guild Master is 2nd class, then he could rule the Castles
+//= and gather Treasure Boxes after WoE
+//= TODO: The official entrance is in Izlude.
+//=========================================================================
+
+prontera,146,163,6	script	Novice Castles	4_F_NOVICE,{
+	mes "[Cita]";
+	if (!getcharid(CHAR_ID_GUILD)) {
+		mes "^FF0000You have to enter a guild to be able to hit Emperium!^000000";
+	} else if (getgdskilllv(getcharid(CHAR_ID_GUILD),10013) ||
+	         (getgdskilllv(getcharid(CHAR_ID_GUILD),10000) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10001) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10002) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10003) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10004) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10005) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10006) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10007) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10008) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10009) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10010) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10011) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10012) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10013) +
+	          getgdskilllv(getcharid(CHAR_ID_GUILD),10014) > 9)
+	          ) {
+		mes "I see... your guild has Emergency Call mastered.";
+		mes "You cannot enter the Novice Castle area.";
+		emotion e_hmm;
+		emotion e_wah,1;
+	} else {
+		mes "I'm a new usher of Novice Castles.";
+		next;
+		mes "[Cita]";
+		if ((eaclass()&(EAJL_2|EAJL_UPPER)) || BaseLevel>=60) {
+			mes "I'm sorry, you can't enter the sacred Novice Castles place.";
+			emotion e_sry;
+		} else if (select("Warp me to Novice Castles","Cancel") == 1) {
+			// remove several unallowed buffs
+			sc_end SC_ASSUMPTIO;
+			sc_end SC_IMPOSITIO;
+			sc_end SC_SUFFRAGIUM;
+			sc_end SC_MAGNIFICAT;
+			sc_end SC_WEAPONPERFECT;
+			sc_end SC_GOSPEL;
+			sc_end SC_BASILICA;
+			sc_end SC_MAGICPOWER;
+			sc_end SC_MARIONETTE;
+			sc_end SC_MARIONETTE2;
+			sc_end SC_DEVOTION;
+			sc_end SC_SACRIFICE;
+			sc_end SC_OVERTHRUSTMAX;
+			sc_end SC_SOULLINK;
+			warp "n_castle",102,93+rand(14);
+		}
+	}
+	close;
+}
+
+n_castle,102,107,5	script	Cita	4_F_NOVICE,{
+	mes "[Cita]";
+	mes "Hello, "+ strcharinfo(PC_NAME) +". Can I help you?";
+	next;
+	if (select("Warp me to Prontera!","Cancel") == 1) {
+		warp "prontera",155,177+rand(5);
+	} else {
+		mes "[Cita]";
+		mes "Ok.";
+	}
+	close;
+}

@@ -1,0 +1,58 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  Euphy
+//= Copyright (C)  Playtester
+//= Copyright (C)  Komurka
+//= Copyright (C)  MasterOfMuppets
+//= Copyright (C)  massdriller
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= City Cleaners Monster Spawn Script (Common)
+//================= Description ===========================================
+//= Spawns monsters to clean up cities.
+//================= Current Version =======================================
+//= 1.2
+//=========================================================================
+
+//== Wild Rose City Spawns =================================
+prontera,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+morocc,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+alberta,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+aldebaran,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+geffen,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+payon,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+comodo,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+izlude,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+yuno,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+einbroch,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+lighthalzen,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+hugel,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+umbala,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+amatsu,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+gonryun,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+louyang,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+ayothaya,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+moscovia,0,0,0,0	monster	Wild Rose	1261,1,7200000,3600000,0
+einbech,0,0,0,0	monster	Wild Rose	1261,1,3600000,3000000,0

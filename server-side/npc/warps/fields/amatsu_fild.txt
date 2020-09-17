@@ -1,0 +1,41 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  L0ne_W0lf
+//= Copyright (C)  Nana
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Amatsu Field Warps Script
+//================= Description ===========================================
+//= Warp Points for Amatsu Field
+//================= Current Version =======================================
+//= 1.1
+//=========================================================================
+
+amatsu,248,292,0	warp	ama_fild1-1	1,1,ama_fild01,75,33
+ama_fild01,75,30,0	warp	ama_fild1-2	1,1,amatsu,248,289
+ama_fild01,174,331,0	warp	ama_shrine1-1	1,1,ama_in01,175,174
+ama_in01,175,171,0	warp	ama_shrine1.2	1,1,ama_fild01,174,328
+ama_fild01,330,141,0	warp	ama_craftsman1-1	1,1,ama_in01,174,124
+ama_in01,174,121,0	warp	ama_craftsman1.2	1,1,ama_fild01,330,138

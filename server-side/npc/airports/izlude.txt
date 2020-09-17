@@ -1,0 +1,72 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2016  Hercules Dev Team
+//= Copyright (C)  rAthena Dev Team
+//= Copyright (C)  eAthena Dev Team
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Izlude Airport NPCs
+//================= Description ===========================================
+//= Official Izlude Airport NPCs
+//=========================================================================
+
+-	script	::Airship_Staff_izlude	FAKE_NPC,{
+	mes("[Airship Staff]");
+	mes("Welcome! Would you like\r"
+		"to board the Airship that\r"
+		"departs on the flight wich stops\r"
+		"in Juno and Rachel?");
+	next;
+	if (select("Board the Airship to Juno/Rachel.", "Cancel.") == 1) {
+		mes("[Airship Staff]");
+		mes("The boarding fee is\r"
+			"1,200 zeny. However, this\r"
+			"charged is waived if you use\r"
+			"a Free Ticket for Airship. Now,\r"
+			"would you still like to board?");
+		next;
+		if (select("Yes", "No") == 1) {
+			if (countitem(Free_Flying_Ship_Ticket) > 0) {
+				delitem Free_Flying_Ship_Ticket,1;
+				warp "airplane_01",244,58;
+				end;
+			}
+			if (Zeny >= 1200) {
+				Zeny -= 1200;
+				warp "airplane_01",244,58;
+				end;
+			}
+			mes("[Airship Staff]");
+			mes("I'm sorry, but you don't\r"
+				"have 1,200 zeny to pay\r"
+				"for the boarding fee.");
+			close;
+		}
+	}
+	mes("[Airship Staff]");
+	mes("Thank you and\r"
+		"please come again.");
+	mes("Have a good day~");
+	close;
+}

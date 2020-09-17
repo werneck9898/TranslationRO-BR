@@ -1,0 +1,79 @@
+//================= Hercules Script =======================================
+//=       _   _                     _
+//=      | | | |                   | |
+//=      | |_| | ___ _ __ ___ _   _| | ___  ___
+//=      |  _  |/ _ \ '__/ __| | | | |/ _ \/ __|
+//=      | | | |  __/ | | (__| |_| | |  __/\__ \
+//=      \_| |_/\___|_|  \___|\__,_|_|\___||___/
+//================= License ===============================================
+//= This file is part of Hercules.
+//= http://herc.ws - http://github.com/HerculesWS/Hercules
+//=
+//= Copyright (C) 2012-2015  Hercules Dev Team
+//= Copyright (C)  rAthena Dev Team
+//= Copyright (C)  eAthena Dev Team
+//=
+//= Hercules is free software: you can redistribute it and/or modify
+//= it under the terms of the GNU General Public License as published by
+//= the Free Software Foundation, either version 3 of the License, or
+//= (at your option) any later version.
+//=
+//= This program is distributed in the hope that it will be useful,
+//= but WITHOUT ANY WARRANTY; without even the implied warranty of
+//= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//= GNU General Public License for more details.
+//=
+//= You should have received a copy of the GNU General Public License
+//= along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//=========================================================================
+//= Mapflag: Nightmare mode.
+//================= Current Version =======================================
+//= 1.0
+//================= Description ===========================================
+//= Players drop items/equipment on death.
+//= pvp_nightmaredrop	id,type,percent
+//=   id: Drop a specific item ID or "random"
+//=   type: "inventory", "equip", or "all"
+//=   percent: Rate of item drop.
+//=========================================================================
+
+pvp_n_1-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_2-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_3-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_4-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_5-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_6-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_7-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_8-1	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_1-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_2-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_3-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_4-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_5-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_6-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_7-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_8-2	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_1-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_2-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_3-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_4-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_5-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_6-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_7-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_8-3	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_1-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_2-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_3-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_4-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_5-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_6-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_7-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_8-4	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_1-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_2-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_3-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_4-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_5-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_6-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_7-5	mapflag	pvp_nightmaredrop	random,equip,300
+pvp_n_8-5	mapflag	pvp_nightmaredrop	random,equip,300
