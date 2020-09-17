@@ -11,7 +11,7 @@ I packed the client-side translation into 2 folders:
 
 You can make a ".grf" file with the data folder and use it on your client instead of using a data folder
 **Don't forget to Diff your Ragexe with a tool such as Nemo and correct the lub files path with the .lub file name 
-on System folder
+on System folder**
 
 Obs: to translate the NPCs to portuguese you need to change the files server-side, on the folder "yourEmulator/npc".
 I'm working on that and as I progress i will share the files here.
@@ -31,13 +31,13 @@ no seu cliente ao inves de usar uma pasta data para as traduções
 **Não se esqueça de diffar o seu arquivo Ragexe com alguma ferramenta como o Nemo e corrigir o caminho dos arquivos .lub
 
 **Obs: Para traduzir os NPCs é necessário modificar os arquivos do servidor, na pasta "seuEmulador/npc". 
-Ja comecei a fazer isso e estarei feliz e estou compartilhando a medida em que estou conseguindo traduzir.
+Ja comecei a fazer isso e estarei feliz e estou compartilhando a medida em que estou conseguindo traduzir.**
 
 **Obs 2: Para permitir caracteres especiais, acentos e etc é necessário duas coisas
-1) Para os arquivos traduzidos client-side (na pasta do jogo) como por exemplo /System/itemInfo.lub(lua) que define a descrição dos itens voce deve apenas definir no arquivo (s)clientinfo.xml presente na sua pasta data ou arquivo .grf o "<langtype> 12 <\langtype>".
+1) Para os arquivos traduzidos client-side (na pasta do jogo) como por exemplo /System/itemInfo.lub(lua) que define a descrição dos itens voce deve apenas definir no arquivo (s)clientinfo.xml presente na sua pasta data ou arquivo .grf o "<langtype> 12 <\langtype>".**
 
 **2) Para os arquivos de tradução feitos server-side como npcs é necessário sempre salvar os arquivos .txt com codificação ANSI (já estou fazendo isso). 
-Por padrão esta com codificação UTF-8 ja que foram escritos originalmente em ingles.
+Por padrão esta com codificação UTF-8 ja que foram escritos originalmente em ingles.**
 
 Qualquer pergunta estou lá pelo discord do rAthena.
 
