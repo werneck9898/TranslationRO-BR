@@ -44,5 +44,5 @@ Por padrão esta com codificação UTF-8 ja que foram escritos originalmente em 
 Qualquer pergunta estou lá pelo discord do rAthena.
 
 ### Many thanks to https://github.com/hvg249 and https://github.com/sr-bethonico for helping.
-### Agradeço ao https://github.com/sr-bethonico e https://github.com/hvg249  pela ajuda.**
+### Agradeço ao https://github.com/sr-bethonico e https://github.com/hvg249  pela ajuda.
 
