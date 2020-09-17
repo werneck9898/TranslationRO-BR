@@ -40,32 +40,32 @@
 //== Hair Dresser Veronica =================================
 alberta_in,55,142,7	script	Hair Dresser	4_F_02,{
 	mes "[Veronica]";
-	mes "Welcome to Veronica's hair salon.";
-	mes "How can I help you?";
+	mes "Bem-vindo(a) ao salão da Veronica!.";
+	mes "Não precisa nem agendar horário!";
 	next;
-	switch(select("See available hair styles.", "Change hair style.", "End conversation.")) {
+	switch(select("Ver catalogo de estilos.", "Mudar o seu cabelo.", "Agradecer e despedir.")) {
 	case 1:
 		mes "[Veronica]";
-		mes "We have a total of 19 styles, available from no.1 to no.19.";
-		mes "Which one do you want to see?";
-		mes "If you wish to cancel,";
-		mes "please enter 0.";
+		mes "Tenho este catalo com 19 estilos diferentes, escolhe ai do 1 ao 19.";
+		mes "Qual desses voce gostaria de experimentar?";
+		mes "Se voce desistir e quiser cancelar";
+		mes "pode escolher o numero 0.";
 		next;
 		input .@style;
 		if(.@style > 19) {
 			mes "[Veronica]";
-			mes "Oops, I'm sorry, but that";
-			mes "style is not available.";
-			mes "Remember to enter a number";
-			mes "from 1 to 19.";
+			mes "Eita! Me desculpe mas";
+			mes "esse estilo nao existe no catalogo.";
+			mes "Os numeros do catalogo";
+			mes "vao de 1 a 19.";
 			next;
 		} else if(.@style == 0) {
 			mes "[Veronica]";
-			mes "So, how do you like the style?";
-			mes "Feel free to ask me about any";
-			mes "available hairstyle. It will";
-			mes "be my pleasure to style your";
-			mes "hair.";
+			mes "Então, qual é o seu estilo?";
+			mes "Fique a vontade para me";
+			mes "pedir um corte. Vai ser";
+			mes "um prazer mudar o seu";
+			mes "cabelo.";
 			close;
 		}
 		else {
@@ -74,49 +74,49 @@ alberta_in,55,142,7	script	Hair Dresser	4_F_02,{
 			switch(.@style) {
 			case 1:
 				if (Sex == SEX_MALE) {
-					mes "Oh, that's 'Play Dead' style!";
-					mes "It's a nice, basic haircut.";
-					mes "I notice that usually the";
-					mes "cute, conversative types seem";
-					mes "to prefer this style.";
+					mes "Oh, esse é o estilo 'Fingir de Morto'!";
+					mes "É um corte bem basico, sempre na moda.";
+					mes "Posso dizer que faz o estilo dos";
+					mes "fofos, que gostam de conversar";
+					mes "com todos por ai.";
 					close2; cutin "",255; end;
 				}
-					mes "Oh, that's 'First Aid' style!";
-					mes "The shoulder length tresses";
-					mes "are straightened for those";
-					mes "no nonsense adventurers. It";
-					mes "seems to be the style of";
-					mes "choice for Novices.";
+					mes "Oh, esse aqui é o estilo 'Primeiros Socorros'!";
+					mes "As trancas na altura dos ombros";
+					mes "sao a escolha certa para aquelas";
+					mes "aventureiras mais praticas. Costuma";
+					mes "fazer sucesso entre as novatas";
+					mes "que cortam cabelo comigo.";
 					close2; cutin "",255; end;
 			case 2:
 				if (Sex == SEX_MALE) {
-					mes "Oh, that's the 'Two Handed Sword";
-					mes "Mastery' style! It's perfect for";
-					mes "for Swordmen who might muss their";
-					mes "hair while swinging their swords";
-					mes "all day long.";
+					mes "Opa, esse é o corte 'Espada de Duas Mãos";
+					mes "Estilo de mestre! Esse e perfeito";
+					mes "para Espadachins que acabam baguncando";
+					mes "os cabelos enquanto brandem suas espadas";
+					mes "o dia todo por ai.";
 					close2; cutin "",255; end;
 				}
-					mes "Oh, that's 'Bash' style!";
-					mes "For the powerful woman that's";
-					mes "not afraid to get a little";
-					mes "blood on her hands, but knows";
-					mes "how great her hair will look";
-					mes "while wildly flailing a sword.";
+					mes "Este é o estilo 'Porrada'!";
+					mes "Para as mulheres poderosas que";
+					mes "nao se incomodam com suas";
+					mes "maos sujas de sangue, pois sabem";
+					mes "o quao explendoroso esta o seu cabelo";
+					mes "enquanto enfrentam destemidas os inimigos.";
 					close2; cutin "",255; end;
 			case 3:
 				if (Sex == SEX_MALE) {
-					mes "Oh, that's 'Napalm Beat' style!";
-					mes "It's a unique look with a hint";
-					mes "of eccentricity that's offset";
-					mes "with a helping of elegance.";
+					mes "Bom, este e o estilo 'Ataque Espiritual'!";
+					mes "Este lhe da um visual unico";
+					mes "e excentrico bem equilibrado";
+					mes "com um toque de elegancia.";
 					close2; cutin "",255; end;
 				}
-					mes "Oh, that's 'Frost Diver' style!";
-					mes "The pigtails lend an innocent,";
-					mes "demure look for those Mages";
-					mes "and Wizards that usually scare";
-					mes "off the boys with their spells.";
+					mes "Olhe, este é o estilo'Rajada Congelante'!";
+					mes "As maria-chiquinhas emprestam um ar,";
+					mes "fofo e delicado para aquelas que prezam";
+					mes "por assustar os inimigos apenas";
+					mes "com suas magias destruidoras.";
 					close2; cutin "",255; end;
 			case 4:
 				if (Sex == SEX_MALE) {
