@@ -97,7 +97,7 @@ alberta_in,55,142,7	script	Hair Dresser	4_F_02,{
 					mes "o dia todo por ai.";
 					close2; cutin "",255; end;
 				}
-					mes "Este é o estilo 'Porrada'!";
+					mes "Este é o estilo 'Golpe Fulminante'!";
 					mes "Para as mulheres poderosas que";
 					mes "nao se incomodam com suas";
 					mes "maos sujas de sangue, pois sabem";
@@ -120,48 +120,48 @@ alberta_in,55,142,7	script	Hair Dresser	4_F_02,{
 					close2; cutin "",255; end;
 			case 4:
 				if (Sex == SEX_MALE) {
-					mes "Oh, that's the 'Double Strafe'";
-					mes "style! The arrangement of the";
-					mes "hair conducts ambient static";
-					mes "electricity, naturally clearing";
-					mes "the mind. At least, that's what";
-					mes "I was taught in fashion school.";
+					mes "Este e o estilo 'Rajada de Flechas'!";
+					mes "A forma deste penteado faz com que o";
+					mes "cabelo conduza a eletricidade estatica";
+					mes "do ambiente, deixando sua mente limpa";
+					mes "naturalmente. Ou pelo menos foi o";
+					mes "que me ensinaram na escola de moda.";
 					close2; cutin "",255; end;
 				}
-					mes "Oh, that's 'Arrow Shower' style!";
-					mes "For the Bowswoman who doesn't";
-					mes "want fashion to interfere with";
-					mes "her depth perception. Much more";
-					mes "attractive than those horrid";
-					mes "granny-style hairbuns.";
+					mes "Este aqui e o estilo'Chuva de Flechas'!";
+					mes "Para as arqueiras que nao deixam;
+					mes "seu glamur atrapalhar o foco";
+					mes "de sua mira. E ainda sao muito";
+					mes "mais atraentes do que o velho";
+					mes "estilo coque da vovo.";
 					close2; cutin "",255; end;
 			case 5:
 				if (Sex == SEX_MALE) {
-					mes "Oh, that's 'Angelus' style!";
-					mes "It's for calm and devout people,";
-					mes "as well as those bashful,";
-					mes "mild-mannered types.";
+					mes "Oh, este é o estilo 'Angelico'!";
+					mes "Especialmente desenvolvido tanto para,";
+					mes "camaradas recatados e devotos,";
+					mes "quanto para aqueles timidos e quietos.";
 					close2; cutin "",255; end;
 				}
-					mes "Oh, that's 'Heal' style!";
-					mes "This is in trend among";
-					mes "Priests and Acolytes since";
-					mes "this style is appropriate";
-					mes "for formal situations, but";
-					mes "is also practical in battle.";
+					mes "Este e o estilo 'Cura'!";
+					mes "E uma grande tendencia entre";
+					mes "Padres e Acolitos desde que";
+					mes "o estilo foi apropriado";
+					mes "para situacoes formais, mas";
+					mes "tambem se mostra pratico nas batalhas.";
 					close2; cutin "",255; end;
 			case 6:
 				if (Sex == SEX_MALE) {
-					mes "Oh, that's 'Push Cart' style!";
-					mes "It was based on the design of a";
-					mes "cart...at least, that's what";
-					mes "I learned in beautician school.";
+					mes "Este penteado e o 'Choque do Carrinho'!";
+					mes "Seu design foi baseado em um";
+					mes "carrinho...bom, pelo menos foi";
+					mes "o que eu aprendi na escola de moda.";
 					close2; cutin "",255; end;
 				}
-					mes "Ooh, that's 'Vending' style!";
-					mes "It's the hairdo of money";
-					mes "makers...and if I may say so,";
-					mes "it's also economical.";
+					mes "Este e o estilo 'Vendas'!";
+					mes "E o visual de um bom";
+					mes "pechincheiro...e se posso dizer,";
+					mes "ele tambem e economico.";
 					close2; cutin "",255; end;
 			case 7:
 				if (Sex == SEX_MALE) {
