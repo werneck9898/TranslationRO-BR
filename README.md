@@ -10,6 +10,7 @@ I packed the client-side translation into 2 folders:
 2) and the System folder with the correct lub/lua files for portuguese,
 
 You can make a ".grf" file with the data folder and use it on your client instead of using a data folder
+
 **Don't forget to Diff your Ragexe with a tool such as Nemo and correct the lub files path with the .lub file name 
 on System folder**
 
@@ -28,6 +29,7 @@ Dividi a tradução do cliente em 2 partes
 
 -Se você quiser voce pode usar a pasta data para criar um arquivo .grf contendo as traduções em português e usar 
 no seu cliente ao inves de usar uma pasta data para as traduções
+
 **Não se esqueça de diffar o seu arquivo Ragexe com alguma ferramenta como o Nemo e corrigir o caminho dos arquivos .lub**
 
 **Obs: Para traduzir os NPCs é necessário modificar os arquivos do servidor, na pasta "seuEmulador/npc". 
