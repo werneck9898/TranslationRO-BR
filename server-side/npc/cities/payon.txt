@@ -43,29 +43,29 @@
 //== Payon =================================================
 payon,246,154,0	script	Lady#payon	4_F_01,{
 	mes "[Lady]";
-	mes "A long time ago,";
-	mes "when Payon was still";
-	mes "developing, many of the";
-	mes "villagers lived in poverty.";
+	mes "Há muito tempo atrás,";
+	mes "quando Payon ainda estava";
+	mes "em desenvolvimento, muitos dos";
+	mes "aledeões viviam em extrema pobreza.";
 	next;
 	mes "[Lady]";
-	mes "Many families had to struggle to survive, and often could not even afford to properly bury their dead. Some people threw their dead into the cave near the village.";
+	mes "Essas famílias tinham que lutar muito para viver, raramente podiam custear um sepultamento adequado aos seus parentes que morriam. Portanto começaram a deixar os corpos de seus entes queridos na caverna próximo a cidade.";
 	next;
 	mes "[Lady]";
-	mes "So in that cave, it is said that there are many walking Zombies,";
-	mes "the dead who cannot rest in peace and are unable to pass on to the next world.";
+	mes "Dizem que hoje, dentro da caverna existem muitos mortos-vivos,";
+	mes "os mortos, incapazes de descansar em paz, se tornaram incapazes de fazer a passagem para o outro mundo.";
 	next;
 	mes "[Lady]";
-	mes "The Zombies, upon sensing the warmth of a human, begin to assault them, but that doesn't mean these Undead hold a grudge against";
-	mes "the living.";
+	mes "Agora dizem que os Zumbis, ao sentirem o calor de um ser humano vivo, começam a atacá-lo imediatamente, mas isso não significa que estes mortos guardam rancor";
+	mes "dos vivos.";
 	next;
 	mes "[Lady]";
-	mes "Their rotten bodies can't leave the cold, dark and damp cave, so it's instinctual for them to attack warmth which would speed up the decomposition of their bodies.";
+	mes "O que acontece é que seus corpos apodrecidos não conseguem deixar a caverna fria e úmida, por cont disso eles atacam, de forma instintiva, para que o calor humano possa acelerar a decomposição de seus corpos.";
 	next;
 	mes "[Lady]";
-	mes "The Zombies in the Payon Cave";
-	mes "may be spooky, but their story";
-	mes "is also kind of tragic.";
+	mes "Os Zumbis da Cavena de Payon";
+	mes "podem ser assustadores, mas sua história";
+	mes "é também terrivelmente trágica.";
 	close;
 }
 
