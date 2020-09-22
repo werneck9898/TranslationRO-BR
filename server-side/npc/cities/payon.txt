@@ -128,63 +128,63 @@ payon,158,246,3	script	Guardsman#payon	4_M_PAY_SOLDIER,3,3,{
 
 OnTouch:
 	mes "[Guardsman]";
-	mes "This is the Central Palace of Payon. This place is open to the public, but in accordance with our laws, you must behave in an orderly fashion once inside.";
+	mes "Este é o Palácio Central de Payon. É aberto ao público, mas de acordo com nossas leis, você deve se portar de forma respeitosa lá dentro.";
 	next;
 	mes "[Guardsman]";
-	mes "In the interest of protecting the peace, we will disarm your equipment once you enter.";
-	mes "Your cooperation is";
-	mes "much appreciated.";
+	mes "Para fins de manter a ordem deste patrimônio local, teremos de reter seus equipamentos aqui do lado de fora.";
+	mes "A cidade de Payon";
+	mes "agradece a cooperação.";
 	nude;
 	close;
 }
 
 payon,249,156,1	script	Woman#payon	1_F_01,{
 	mes "[Woman]";
-	mes "Welcome to Payon.";
-	mes "You must have had";
-	mes "a hard time getting";
-	mes "through the Payon Forest.";
-	mes "How was your trip?";
+	mes "Bem-vindo a Payon.";
+	mes "Imagino que tenha";
+	mes "enfrentado dificuldades";
+	mes "para atravessar a Floresta Payon.";
+	mes "Como foi a viagem?";
 	next;
 	mes "[Woman]";
-	mes "We've been receiving less tourists because of the increasing numbers of monsters outside, so it's quieter nowadays.";
+	mes "Nós temos recebido menos turistas devido a quantidade crescente de monstros do lado de fora, por conta disso a cidade se tornou bem mais quieta.";
 	next;
 	mes "[Woman]";
-	mes " To be honest, things are getting tough because of all those monsters. ^666666*Sigh...*^000000";
+	mes " Pra ser sincera, as coisas estão piorando cada vez mais por conta desses monstros. ^666666*Suspiro...*^000000";
 	next;
 	mes "[Woman]";
 	if (Sex == SEX_MALE)
-		mes "Whoa~! I just noticed those arms of yours look pretty solid. You look pretty strong, guy. Just how many monsters have you killed?!";
+		mes "Uau~! Agora percebi esses seus braços robustos. Você parece bem forte, rapaz. Quantos montros você já matou por aí?!";
 	else
-		mes "Oooh! I didn't notice before, but you look pretty strong beneath all of that feminine charm.";
+		mes "Uau! Não tinha reparado, por baixo de todo esse charme feminino temos aqui uma mulher muito forte. Você deve ter matado muitos monstros no caminho.";
 	next;
 	mes "[Woman]";
-	mes "Hey, I know of a good place for you to hunt. It just so happens that there's a cave in the middle of Payon.";
+	mes "Eu conheço um bom lugar para você caçar mais monstros. É a Caverna de Payon!";
 	next;
 	mes "[Woman]";
-	mes "If you're interested, just head North, pass the forest, and go towards the Northwest. You'll know you've arrived when you're in the place filled with the smell of stinky monsters.";
+	mes "Se estiver interessado, siga para o Norte, passe pela floresta, e então faça seu caminho para Noroeste. Vai saber que chegou quando encontrar uma caverna tomada pelo fedor de carne podre.";
 	next;
-	switch(select("It sounds dangerous!", "I better prepare myself...!", "That's a nice dress you're wearing~")) {
+	switch(select("Parece perigoso!", "É melhor eu me preparar...!", "Esse vestido que está usando é lindo~")) {
 	case 1:
 		mes "[Woman]";
-		mes "Oh come on, don't be a coward.";
-		mes "It's just a simple cave filled with normal monsters. It's quite safe. We've even established an Archer Village near that cave to prevent misfortunate incidents. Hohoohoho~ ";
+		mes "Ah vamaos lá, não seja covarde.";
+		mes "É só uma caverninha cheia de monstros normais. É relativamente seguro. Nós até estabelecemos a Vila dos Arqueiros perto da caverna para evitar incidentes infelizes. Hahahaha~ ";
 		break;
 	case 2:
 		mes "[Woman]";
-		mes "Oh don't worry about any preparations. There's a Tool Dealer right in front of the cave, so you can purchase anything you need from my husban, er, that guy~";
+		mes "Ah não se preocupe muito com sua preparação. Logo na frente da caverna tem um Vendedor de Ferramentas, tudo que precisar você pode comprar na mão do meu marido, quer dizer, do vendedor lá~";
 		break;
 	case 3:
 		mes "[Woman]";
-		mes "Oh hohohoho!";
-		mes "So you've noticed?";
-		mes "I hear this is the";
-		mes "latest trend in Prontera";
-		mes "these days.";
+		mes "Oh hahahaha!";
+		mes "Então você reparou?";
+		mes "Fique sabendo que é a";
+		mes "última moda em Prontera.";
+		mes "Meu marido que me deu.";
 		next;
 		mes "[Woman]";
-		mes "Most of the women in this town don't know anything about fashion! My husband bought this for me as";
-		mes "a present. He makes quite a lot of money, you know. Hohohoho~";
+		mes "A maioria das mulheres da cidade não sabem nada sobre moda e estilo! Meu marido trouxe esse vestido";
+		mes "de Prontera e me deu de presente. Sabe como é, ele ganha muito dinheiro. Hahahaha~";
 		break;
 	}
 	close;
