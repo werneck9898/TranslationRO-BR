@@ -71,47 +71,47 @@ payon,246,154,0	script	Lady#payon	4_F_01,{
 
 payon,134,211,4	script	Young Man#payon	1_M_ORIENT01,{
 	mes "[Young Man]";
-	mes "From your attire,";
-	mes "I can see that you";
-	mes "are a stranger here.";
-	mes "Welcome to Payon.";
+	mes "Pelas suas roupas,";
+	mes "Posso ver que é";
+	mes "um estrangeiro.";
+	mes "Bem-vindo a Payon.";
 	next;
 	mes "[Young Man]";
-	mes "You must be a well-experienced fighter, otherwise you'd never be able to arrive here after passing the steep, mountainous areas and dangerous creatures surrounding this city.";
+	mes "Você deve ser um aventureiro muito experiente, caso contrário você nunca teria sido capaz de fazer o caminho até aqui, a região ao redor da cidade, com suas montanhas e penhascos, é repleta de monstros perigosos.";
 	next;
 	mes "[Young Man]";
-	mes "I'm no expert at fighting, but someone once told me that sheer strength alone won't be able to win some battles.";
+	mes "Eu não sou muito bom com a espada, mas de toda forma alguém me disse uma vez que a força física, por si mesma, não é forte o bastante para sempre vencer sozinha.";
 	next;
 	mes "[Young Man]";
-	mes "Sometimes, you may encounter creatures protected by a hard-shell that don't be damaged by physical attacks. Only psychic power, like Magic, can easily defeat such creatures.";
+	mes "Havrá momentos em que você encontrará criaturas protegidas por carapaças resistentes que as protegem completamente de ataques físicos, como o de espadas. Nessas situações apenas a Magia será forte o suficiente para dar um jeito nessas criaturas.";
 	next;
 	mes "[Young Man]";
-	mes "Of course, not everyone can study magic. The point is that you should keep different kinds of friends and comrades close to you, as you can't possibly handle every situation by yourself.";
+	mes "É claro que não são todos que estudam magia. O ponto é que você deveria sempre buscar fazer amigos com diferentes habilidades, para que seja possível lidar com todo tipo de situação que se pode encontrar nesse mundo.";
 	close;
 }
 
 payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "[Young Man]";
-	mes "I remember the story my dearly departed grandfather has told me.";
+	mes "Lembro de meu falecido avô ter me contado uma história sobre isto.";
 	next;
 	mes "[Young Man]";
-	mes "It's about this Amulet that possesses an Evil Power.";
-	mes "With it, you could awaken";
-	mes "the Dead from the Grave.";
+	mes "Ele me disse que este Amuleto aqui possuía um antigo Poder Maligno.";
+	mes "E com esse poder seria possível";
+	mes "levantar os Mortos de seus Túmulos.";
 	next;
 	mes "[Young Man]";
-	mes "Well, I'm not sure if it's true or not. But, I wonder, what would happen if I used it to summon";
-	mes "my grandfather from the other realm....";
+	mes "Bom, eu não sei se isso é verdade, mas vivo me perguntando o que aconteceria";
+	mes "se eu usasse para chamar meu avô do outro mundo...";
 	next;
 	mes "[?]";
-	mes "^3299CCNever think";
-	mes "of such a thing...";
-	mes "My son.^000000";
+	mes "^3299CCNunca pense";
+	mes "em fazer uma coisa dessas...";
+	mes "Meu filho.^000000";
 	next;
 	mes "[Young Man]";
-	mes "EEEEEEK-!";
-	mes "What was that?!";
-	mes "G-grandpa...?";
+	mes "AAAAAAH-!";
+	mes "O q-que f-foi isso?!";
+	mes "V-vo-vovô...?";
 	next;
 	mes "...";
 	next;
@@ -119,7 +119,7 @@ payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "......";
 	mes "[Young Man]";
 	mes "...";
-	mes "G-God...?";
+	mes "D-deus...?";
 	close;
 }
 
