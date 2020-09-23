@@ -45,11 +45,11 @@
 que_ng,152,167,3	script	Master Miller	4_M_HUOLDARMY,{
 	if (Upper == 2) {
 		mes "[Master Miller]";
-		mes "Olha só, você é uma";
-		mes "criança adorável";
-		mes "Where's your mommy?";
-		mes "This place is dangerous, so";
-		mes "please go home soon, okay?";
+		mes "Olha olha, voce é uma";
+		mes "adoravel criancinha, não?~";
+		mes "Voce se perdeu da sua mae?";
+		mes "Esse é um lugar bem perigoso.";
+		mes "Voce deveria voltar para casa o mais rapido possivel";
 		close;
 	}
 	if (Class == Job_Novice) {

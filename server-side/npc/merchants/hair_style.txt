@@ -46,7 +46,7 @@ alberta_in,55,142,7	script	Hair Dresser	4_F_02,{
 	switch(select("Ver catalogo de estilos.", "Mudar o seu cabelo.", "Agradecer e despedir.")) {
 	case 1:
 		mes "[Veronica]";
-		mes "Tenho este catalo com 19 estilos diferentes, escolhe ai do 1 ao 19.";
+		mes "Tenho este catálogo com 19 estilos diferentes, escolhe ai do 1 ao 19.";
 		mes "Qual desses voce gostaria de experimentar?";
 		mes "Se voce desistir e quiser cancelar";
 		mes "pode escolher o numero 0.";
