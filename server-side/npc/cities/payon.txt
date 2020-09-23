@@ -43,65 +43,65 @@
 //== Payon =================================================
 payon,246,154,0	script	Lady#payon	4_F_01,{
 	mes "[Lady]";
-	mes "HÃ¡ muito tempo atrÃ¡s,";
+	mes "Há muito tempo atrás,";
 	mes "quando Payon ainda estava";
 	mes "em desenvolvimento, muitos dos";
-	mes "aledeÃµes viviam em extrema pobreza.";
+	mes "aledeões viviam em extrema pobreza.";
 	next;
 	mes "[Lady]";
-	mes "Essas famÃ­lias tinham que lutar muito para viver, raramente podiam custear um sepultamento adequado aos seus parentes que morriam. Portanto comeÃ§aram a deixar os corpos de seus entes queridos na caverna prÃ³ximo a cidade.";
+	mes "Essas famílias tinham que lutar muito para viver, raramente podiam custear um sepultamento adequado aos seus parentes que morriam. Portanto começaram a deixar os corpos de seus entes queridos na caverna próximo a cidade.";
 	next;
 	mes "[Lady]";
 	mes "Dizem que hoje, dentro da caverna existem muitos mortos-vivos,";
 	mes "os mortos, incapazes de descansar em paz, se tornaram incapazes de fazer a passagem para o outro mundo.";
 	next;
 	mes "[Lady]";
-	mes "Agora dizem que os Zumbis, ao sentirem o calor de um ser humano vivo, comeÃ§am a atacÃ¡-lo imediatamente, mas isso nÃ£o significa que estes mortos guardam rancor";
+	mes "Agora dizem que os Zumbis, ao sentirem o calor de um ser humano vivo, começam a atacá-lo imediatamente, mas isso não significa que estes mortos guardam rancor";
 	mes "dos vivos.";
 	next;
 	mes "[Lady]";
-	mes "O que acontece Ã© que seus corpos apodrecidos nÃ£o conseguem deixar a caverna fria e Ãºmida, por cont disso eles atacam, de forma instintiva, para que o calor humano possa acelerar a decomposiÃ§Ã£o de seus corpos.";
+	mes "O que acontece é que seus corpos apodrecidos não conseguem deixar a caverna fria e úmida, por cont disso eles atacam, de forma instintiva, para que o calor humano possa acelerar a decomposição de seus corpos.";
 	next;
 	mes "[Lady]";
 	mes "Os Zumbis da Cavena de Payon";
-	mes "podem ser assustadores, mas sua histÃ³ria";
-	mes "Ã© tambÃ©m terrivelmente trÃ¡gica.";
+	mes "podem ser assustadores, mas sua história";
+	mes "é também terrivelmente trágica.";
 	close;
 }
 
 payon,134,211,4	script	Young Man#payon	1_M_ORIENT01,{
 	mes "[Young Man]";
 	mes "Pelas suas roupas,";
-	mes "Posso ver que Ã©";
+	mes "Posso ver que é";
 	mes "um estrangeiro.";
 	mes "Bem-vindo a Payon.";
 	next;
 	mes "[Young Man]";
-	mes "VocÃª deve ser um aventureiro muito experiente, caso contrÃ¡rio vocÃª nunca teria sido capaz de fazer o caminho atÃ© aqui, a regiÃ£o ao redor da cidade, com suas montanhas e penhascos, Ã© repleta de monstros perigosos.";
+	mes "Você deve ser um aventureiro muito experiente, caso contrário você nunca teria sido capaz de fazer o caminho até aqui, a região ao redor da cidade, com suas montanhas e penhascos, é repleta de monstros perigosos.";
 	next;
 	mes "[Young Man]";
-	mes "Eu nÃ£o sou muito bom com a espada, mas de toda forma alguÃ©m me disse uma vez que a forÃ§a fÃ­sica, por si mesma, nÃ£o Ã© forte o bastante para sempre vencer sozinha.";
+	mes "Eu não sou muito bom com a espada, mas de toda forma alguém me disse uma vez que a força física, por si mesma, não é forte o bastante para sempre vencer sozinha.";
 	next;
 	mes "[Young Man]";
-	mes "HavrÃ¡ momentos em que vocÃª encontrarÃ¡ criaturas protegidas por carapaÃ§as resistentes que as protegem completamente de ataques fÃ­sicos, como o de espadas. Nessas situaÃ§Ãµes apenas a Magia serÃ¡ forte o suficiente para dar um jeito nessas criaturas.";
+	mes "Havrá momentos em que você encontrará criaturas protegidas por carapaças resistentes que as protegem completamente de ataques físicos, como o de espadas. Nessas situações apenas a Magia será forte o suficiente para dar um jeito nessas criaturas.";
 	next;
 	mes "[Young Man]";
-	mes "Ã‰ claro que nÃ£o sÃ£o todos que estudam magia. O ponto Ã© que vocÃª deveria sempre buscar fazer amigos com diferentes habilidades, para que seja possÃ­vel lidar com todo tipo de situaÃ§Ã£o que se pode encontrar nesse mundo.";
+	mes "É claro que não são todos que estudam magia. O ponto é que você deveria sempre buscar fazer amigos com diferentes habilidades, para que seja possível lidar com todo tipo de situação que se pode encontrar nesse mundo.";
 	close;
 }
 
 payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "[Young Man]";
-	mes "Lembro de meu falecido avÃ´ ter me contado uma histÃ³ria sobre isto.";
+	mes "Lembro de meu falecido avô ter me contado uma história sobre isto.";
 	next;
 	mes "[Young Man]";
-	mes "Ele me disse que este Amuleto aqui possuÃ­a um antigo Poder Maligno.";
-	mes "E com esse poder seria possÃ­vel";
-	mes "levantar os Mortos de seus TÃºmulos.";
+	mes "Ele me disse que este Amuleto aqui possuía um antigo Poder Maligno.";
+	mes "E com esse poder seria possível";
+	mes "levantar os Mortos de seus Túmulos.";
 	next;
 	mes "[Young Man]";
-	mes "Bom, eu nÃ£o sei se isso Ã© verdade, mas vivo me perguntando o que aconteceria";
-	mes "se eu usasse para chamar meu avÃ´ do outro mundo...";
+	mes "Bom, eu não sei se isso é verdade, mas vivo me perguntando o que aconteceria";
+	mes "se eu usasse para chamar meu avô do outro mundo...";
 	next;
 	mes "[?]";
 	mes "^3299CCNunca pense";
@@ -111,7 +111,7 @@ payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "[Young Man]";
 	mes "AAAAAAH-!";
 	mes "O q-que f-foi isso?!";
-	mes "V-vo-vovÃ´...?";
+	mes "V-vo-vovô...?";
 	next;
 	mes "...";
 	next;
@@ -128,12 +128,12 @@ payon,158,246,3	script	Guardsman#payon	4_M_PAY_SOLDIER,3,3,{
 
 OnTouch:
 	mes "[Guardsman]";
-	mes "Este Ã© o PalÃ¡cio Central de Payon. Ã‰ aberto ao pÃºblico, mas de acordo com nossas leis, vocÃª deve se portar de forma respeitosa lÃ¡ dentro.";
+	mes "Este é o Palácio Central de Payon. É aberto ao público, mas de acordo com nossas leis, você deve se portar de forma respeitosa lá dentro.";
 	next;
 	mes "[Guardsman]";
-	mes "Para fins de manter a ordem deste patrimÃ´nio local, teremos de reter seus equipamentos aqui do lado de fora.";
+	mes "Para fins de manter a ordem deste patrimônio local, teremos de reter seus equipamentos aqui do lado de fora.";
 	mes "A cidade de Payon";
-	mes "agradece a cooperaÃ§Ã£o.";
+	mes "agradece a cooperação.";
 	nude;
 	close;
 }
@@ -147,44 +147,44 @@ payon,249,156,1	script	Woman#payon	1_F_01,{
 	mes "Como foi a viagem?";
 	next;
 	mes "[Woman]";
-	mes "NÃ³s temos recebido menos turistas devido a quantidade crescente de monstros do lado de fora, por conta disso a cidade se tornou bem mais quieta.";
+	mes "Nós temos recebido menos turistas devido a quantidade crescente de monstros do lado de fora, por conta disso a cidade se tornou bem mais quieta.";
 	next;
 	mes "[Woman]";
-	mes " Pra ser sincera, as coisas estÃ£o piorando cada vez mais por conta desses monstros. ^666666*Suspiro...*^000000";
+	mes " Pra ser sincera, as coisas estão piorando cada vez mais por conta desses monstros. ^666666*Suspiro...*^000000";
 	next;
 	mes "[Woman]";
 	if (Sex == SEX_MALE)
-		mes "Uau~! Agora percebi esses seus braÃ§os robustos. VocÃª parece bem forte, rapaz. Quantos montros vocÃª jÃ¡ matou por aÃ­?!";
+		mes "Uau~! Agora percebi esses seus braços robustos. Você parece bem forte, rapaz. Quantos montros você já matou por aí?!";
 	else
-		mes "Uau! NÃ£o tinha reparado, por baixo de todo esse charme feminino temos aqui uma mulher muito forte. VocÃª deve ter matado muitos monstros no caminho.";
+		mes "Uau! Não tinha reparado, por baixo de todo esse charme feminino temos aqui uma mulher muito forte. Você deve ter matado muitos monstros no caminho.";
 	next;
 	mes "[Woman]";
-	mes "Eu conheÃ§o um bom lugar para vocÃª caÃ§ar mais monstros. Ã‰ a Caverna de Payon!";
+	mes "Eu conheço um bom lugar para você caçar mais monstros. É a Caverna de Payon!";
 	next;
 	mes "[Woman]";
-	mes "Se estiver interessado, siga para o Norte, passe pela floresta, e entÃ£o faÃ§a seu caminho para Noroeste. Vai saber que chegou quando encontrar uma caverna tomada pelo fedor de carne podre.";
+	mes "Se estiver interessado, siga para o Norte, passe pela floresta, e então faça seu caminho para Noroeste. Vai saber que chegou quando encontrar uma caverna tomada pelo fedor de carne podre.";
 	next;
-	switch(select("Parece perigoso!", "Ã‰ melhor eu me preparar...!", "Esse vestido que estÃ¡ usando Ã© lindo~")) {
+	switch(select("Parece perigoso!", "É melhor eu me preparar...!", "Esse vestido que está usando é lindo~")) {
 	case 1:
 		mes "[Woman]";
-		mes "Ah vamaos lÃ¡, nÃ£o seja covarde.";
-		mes "Ã‰ sÃ³ uma caverninha cheia de monstros normais. Ã‰ relativamente seguro. NÃ³s atÃ© estabelecemos a Vila dos Arqueiros perto da caverna para evitar incidentes infelizes. Hahahaha~ ";
+		mes "Ah vamaos lá, não seja covarde.";
+		mes "É só uma caverninha cheia de monstros normais. É relativamente seguro. Nós até estabelecemos a Vila dos Arqueiros perto da caverna para evitar incidentes infelizes. Hahahaha~ ";
 		break;
 	case 2:
 		mes "[Woman]";
-		mes "Ah nÃ£o se preocupe muito com sua preparaÃ§Ã£o. Logo na frente da caverna tem um Vendedor de Ferramentas, tudo que precisar vocÃª pode comprar na mÃ£o do meu marido, quer dizer, do vendedor lÃ¡~";
+		mes "Ah não se preocupe muito com sua preparação. Logo na frente da caverna tem um Vendedor de Ferramentas, tudo que precisar você pode comprar na mão do meu marido, quer dizer, do vendedor lá~";
 		break;
 	case 3:
 		mes "[Woman]";
 		mes "Oh hahahaha!";
-		mes "EntÃ£o vocÃª reparou?";
-		mes "Fique sabendo que Ã© a";
-		mes "Ãºltima moda em Prontera.";
+		mes "Então você reparou?";
+		mes "Fique sabendo que é a";
+		mes "última moda em Prontera.";
 		mes "Meu marido que me deu.";
 		next;
 		mes "[Woman]";
-		mes "A maioria das mulheres da cidade nÃ£o sabem nada sobre moda e estilo! Meu marido trouxe esse vestido";
-		mes "de Prontera e me deu de presente. Sabe como Ã©, ele ganha muito dinheiro. Hahahaha~";
+		mes "A maioria das mulheres da cidade não sabem nada sobre moda e estilo! Meu marido trouxe esse vestido";
+		mes "de Prontera e me deu de presente. Sabe como é, ele ganha muito dinheiro. Hahahaha~";
 		break;
 	}
 	close;

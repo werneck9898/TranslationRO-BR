@@ -1,4 +1,4 @@
-//===== Hercules Script ======================================
+S//===== Hercules Script ======================================
 //= Job Master
 //===== By: ==================================================
 //= Euphy
@@ -53,13 +53,13 @@ prontera,153,193,6	script	Job Master	2_F_MAGICMASTER,{
 			close;
 		}
 		while (true) {
-			mes "Selecione uma opÃ§Ã£o";
+			mes "Selecione uma opção";
 			next;
 			.@choice = select(" ~ ^0055FFRebirth^000000", (.third_classes ? " ~ ^FF0000Third Class^000000":""), " ~ ^777777Cancel^000000");
 			if (.@choice == 3)
 				close;
 			mes "[Job Master]";
-			mes "VocÃª tem certeza?";
+			mes "Você tem certeza?";
 			next;
 			if (.@choice == 1)
 				Job_Menu(Job_Novice_High);
@@ -152,7 +152,7 @@ function Job_Menu {
 		}
 		if (select(" ~ Change into ^0055FF"+ jobname(.@newjob) +"^000000 class", " ~ ^777777"+(getargcount() > 1 ? "Go back": "Cancel")+"^000000") == 1) {
 			mes "[Mestre de Classe]";
-			mes "Agora vocÃª Ã© um "+A_An(jobname(.@newjob))+"!";
+			mes "Agora você é um "+A_An(jobname(.@newjob))+"!";
 			if (.@newjob == Job_Novice_High && .linear_jobchange)
 				lastJob = Class; // Note: This is incompatible with the Valkyrie rebirth script.
 			jobchange .@newjob;

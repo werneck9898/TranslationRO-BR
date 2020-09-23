@@ -9,13 +9,13 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2015  Hercules Dev Team
-//= Copyright (C)  L0ne_W0lf
-//= Copyright (C)  Silent
-//= Copyright (C)  MasterOfMuppets
-//= Copyright (C)  massdriller
-//= Copyright (C)  Lupus
-//= Copyright (C)  kobra_k88
+//= Copyright (C) 2012-2020 Hercules Dev Team
+//= Copyright (C) L0ne_W0lf
+//= Copyright (C) Silent
+//= Copyright (C) MasterOfMuppets
+//= Copyright (C) massdriller
+//= Copyright (C) Lupus
+//= Copyright (C) kobra_k88
 //=
 //= Hercules is free software: you can redistribute it and/or modify
 //= it under the terms of the GNU General Public License as published by
@@ -49,82 +49,82 @@ prontera,47,339,5	duplicate(prtguard)	Guard#4pront	8W_SOLDIER
 
 prontera,101,288,3	script	Shuger#pront	4W_M_02,{
 	mes "[Shuger]";
-	mes "Fora dos muros da cidade, hÃ¡ uma criatura rosa chamada ^000077Poring^000000.";
+	mes "Ao arredores da cidade você irá encontrar um monstro rosa chamado ^000077Poring^000000.";
 	next;
 	mes "[Shuger]";
-	mes "Apesar de sua aparÃªncia fofinha e da criatura de fato nÃ£o representar ameaÃ§a alguma, o Poring Ã© conhecido por absorver itens que encontram pelo chÃ£o para dentro de seu corpo.";
+	mes "Apesar de não ser perigoso os porings são conhecidos por absorver item caídos dentro do próprio corpo.";
 	next;
 	mes "[Shuger]";
-	mes "Portanto, se houver algo no chÃ£o que queira pegar, melhor ser rÃ¡pido antes que a coisa seja consumiga pelo Poring. E relembrando... Porings sÃ£o bem fraquinhos...";
+	mes "Então se tiver algo que vc queira pegar no chão, preste atenção. Apesar de que porigs sao bem fracotes";
 	next;
 	mes "[Shuger]";
-	mes "O verdinho, Ã© chamado ^000077Poporing^000000 e Ã© mais forte que o Poring. Novatos geralmente cometem o erro de atacÃ¡-lo inadivertidos de seu poder... Por isso, tome cuidado!";
+	mes "A versão esverdeada ^000077Poporing^000000 é mais forte que um poring. Iniciantes geralmente tentam atacá-los sem conhecer o seu real poder, tenha cuidado";
 	close;
 }
 
 prontera,54,240,6	script	Tono#pront	4W_M_01,{
 	mes "[Tono]";
-	mes "Did you know?";
+	mes "Voce sabia?";
 	next;
 	mes "[Tono]";
-	mes "The larva of Creamy is Fabre. So, those green little wormy things are actually the babies of those pinkish, purply butterfly things you see around.";
+	mes "A larva do Creamy é um Fabre. Acredite ou não aqueles monstrinhos verdes nojentos sao os bebês do perigoso Creamy.";
 	next;
 	mes "[Tono]";
-	mes "But before Fabres can become Creamys, they go into a pupa stage. When that happens, they turn into these dark purple cocoons we call Pupa. Simple, huh?";
+	mes "Porém antes deles se transformarem, os Fabres entram em uma casúlo, em um estágio que chamamos de Pupa. Legal, né?";
 	next;
 	mes "[Tono]";
-	mes "There's another monster that goes through a really big change... Pickys.";
+	mes "Outro monstro que voce pode encontrar pelos arredores e que passam por transformações são os Pickys.";
 	next;
 	mes "[Tono]";
-	mes "Pickys are so cute when they're young, but when they grow up, they turn into those big, gawky looking Peco Pecos. Talk about awkward puberty.";
+	mes "Pickys são tão fofinhos, mas quando eles crescem, ele se tornam os grandes e imponentes Peco Pecos. Nem me fale de uma puberdade conturbada.";
 	close;
 }
 
 prontera,106,116,6	script	Merideth#pront	4_F_02,{
 	mes "[Merideth]";
-	mes "The weather was nice on my day off so my family and I went for a picnic. We chose to go to a slightly secluded area where I saw something really interesting...";
+	mes "O clima estava bom e era meu dia de folga. Então eu e minha família resolvemos fazer um picnic. A gente foi pra uma area mais afastada e eu acabei vendo algo muito interessante...";
 	next;
 	mes "[Merideth]";
-	mes "It was a large group of Giant Hornets! What was even weirder was that they were all controlled by this one Queen Bee, following her every command.";
+	mes "Era um grupo de Zangões gigantes. O mais estranho era que eles estavam sendo controlados por uma Abelha Rainha, seguindo as suas ordens.";
 	next;
 	mes "[Merideth]";
-	mes "They might just be bugs, but I think they've got the right idea. Men really ought to take commands from us women... We do things right!";
+	mes "Mesmo sendo apenas insetos, mas eu acho que eles sabem das coisas. Homens deveriam obedecer mulheres... A gente sempre faz as coisas certas!";
 	close;
 }
 
 prontera,160,133,2	script	YuPi#pront	8_F,{
 	mes "[YuPi]";
-	mes "Although many monsters may look the same, be careful! There are variations among monsters that have the same basic form.";
+	mes "Apesar de muitos monstros serem iguais, tome cuidado. Algumas variações de especies tem a mesma forma do original.";
 	next;
 	mes "[YuPi]";
-	mes "One monster, that looks just like a peaceful and weak one that you've already encountered, may actually be wild and ferocious!";
+	mes "Um monstro, que pode ser igual a sua forma pacífica, na verdade pode ser bem agressivo e feroz!";
 	next;
 	mes "[YuPi]";
-	mes "You can tell these kinds of monsters apart by their body color. Wilder and more powerful monsters have more dangerous looking colors.";
+	mes "Você pode adivinhar qual é qual pela cor de cada um. Versões mais podersosas geralmente tem cores mais fortes.";
 	close;
 }
 
 prontera,149,202,2	script	YuNa#pront	8_F_GIRL,{
 	mes "[YuNa]";
-	mes "Behold...";
-	mes "Mighty Odin!";
-	mes "God of wisdom!";
-	mes "God of war!";
+	mes "Contemple...";
+	mes "O Todo-poderoso Odin!";
+	mes "Deus da sabedoria!";
+	mes "Deus da Guerra!";
 	next;
 	mes "[YuNa]";
-	mes "Here, in Rune-Midgard, we serve Odin, the fearsome god who sacrificed one of his eyes in order to acquire wisdom.";
+	mes "Em Rune-Midgard, nos servimos a Odin, o grande Deus que sacrificou um dos seus olhos para adquirir sabedoria.";
 	next;
 	mes "[YuNa]";
-	mes "The statue you see behind of me is a sculpture of mighty Odin. But, it's a shame because it's such a bad likeness.";
+	mes "A estátua que voce esta vendo atrás de mim é um escultura do grande Odin. Porém, é uma pena por ser um pessima representação.";
 	next;
 	mes "[YuNa]";
-	mes "I mean, this statue is totally different from our image of Odin. I guess the sculptor took too many artistic liberties.";
+	mes "Quero dizer, a estátua é completamente diferente da nossa imagem de Odin. Talvez o escultor tomou liberdades demais.";
 	next;
 	mes "[YuNa]";
-	mes "I bet the first time you saw this statue, you thought, '^3355FFOh, what a nice muscle man on a horse^000000.'";
+	mes "Eu aposto que na primeira vez que você viu a estátua, você pensou, '^3355FFOh, Quem é esse homem musculuso nesse cavalo?^000000.'";
 	next;
 	mes "[YuNA]";
-	mes "But this statue is obviously not muscular enough, not godly enough to fairly represent a god! Maybe if he had a halo?";
+	mes "Mas é claro que essa estátua nao é musculosa o suficiente, nem divina e nem mágica suficiente para representar Odin. Talvez se tivesse uma auréola?";
 	close;
 }
 
@@ -133,45 +133,45 @@ prontera,216,70,2	script	Strife#pront	1_M_02,{
 		if (event_prt_nov_dreamtalk == 0) {
 			mes "[Strife]";
 			mes "Whew!";
-			mes "Man oh man...";
-			mes "I'm gonna be such";
-			mes "an awesome Knight!";
+			mes "Meu amigo..";
+			mes "Eu vou ser um";
+			mes "Cavaleiro incrível!";
 			next;
 			mes "[Strife]";
-			mes "I know, I know...";
-			mes "First, I gotta be a Swordie. But if I keep practicing, I can become an awesome Swordie. And then after that...";
+			mes "Eu sei, eu sei...";
+			mes "Primeiro eu tenho que virar um Espadachim. Mas se eu continuar treinando, logo mais me tornarei um. E depois disso...";
 			next;
 			mes "[Strife]";
-			mes "I'll be the most";
-			mes "awesomest Knight around!";
-			mes "It's... It's my most precious dream.";
+			mes "Eu vou ser o";
+			mes "Cavaleiro mais descolado por ai!";
+			mes "É o sonho da minha vida.";
 			next;
 			mes "[Strife]";
 			mes "MAGNUM BREAK!";
 			next;
-			if (select("I wanna be strong too!", "Um... Do you best.") == 1) {
+			if (select("Também quero ser forte!", "Um... Faça seu melhor.") == 1) {
 				event_prt_nov_dreamtalk = 1;
 				mes "[Strife]";
 				mes "Wow...!";
-				mes "That's so awesome!";
-				mes "We both share the";
-				mes "same dream!";
+				mes "Isso é demais!";
+				mes "A gente compartilha o";
+				mes "mesmo sonho!";
 				next;
 				mes "[Strife]";
-				mes "Hey, if you wanna become a Swordie, you gotta go to Izlude. There, you can go ahead and take the Swordman job test. The first time, I, um, failed miserably. But I won't fail again!";
+				mes "Se você quer virar um espadachim, você precisa ir pra izlude. Lá voce vai poder fazer o teste de Espadachim. Na primeira vez eu acabei falhando. Na próxima eu irei passar com certeza!";
 				next;
 				mes "[Strife]";
-				mes "Training! Training! Gotta keep training! You need to be strong too! Once we both get stronger, we'll meet again!";
+				mes "Treinar! Praticar! Continue treinado! Você também precisa ser forte! Quando estivermos mais forte, nos encontraremos novamente!";
 				close;
 			}
 			mes "[Strife]";
-			mes "Heh heh! I will for sure! 'Strife, the courageous Knight.' It sounds cool, doesn't it?";
+			mes "Heh heh! Eu sem duvida serei! 'Strife, O corajoso cavaleiro.' Maneiro, não?";
 			close;
 		}
 		else {
 			mes "[Strife]";
-			mes "Fight...!";
-			mes "Fight Fight FIGHT!";
+			mes "Lute...!";
+			mes "Lute Lute LUTE!";
 			close;
 		}
 	}

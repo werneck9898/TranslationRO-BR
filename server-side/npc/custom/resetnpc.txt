@@ -30,7 +30,7 @@ prontera,150,193,4	script	Reset Girl	4_F_TELEPORTER,{
 	case 1:
 		mes "[Reset Girl]";
 		if (Zeny < .@ResetSkill) {
-			mes "Parece que vocÃª nao tem dinheiro suficiente.";
+			mes "Parece que você nao tem dinheiro suficiente.";
 			close;
 		}
 		Zeny -= .@ResetSkill;
@@ -41,7 +41,7 @@ prontera,150,193,4	script	Reset Girl	4_F_TELEPORTER,{
 	case 2:
 		mes "[Reset Girl]";
 		if (Zeny < .@ResetStat) {
-			mes "Parece que vocÃª nao tem dinheiro suficiente.";
+			mes "Parece que você nao tem dinheiro suficiente.";
 			close;
 		}
 		Zeny -= .@ResetStat;
@@ -51,7 +51,7 @@ prontera,150,193,4	script	Reset Girl	4_F_TELEPORTER,{
 	case 3:
 		mes "[Reset Girl]";
 		if (Zeny < .@ResetBoth) {
-			mes "Parece que vocÃª nao tem dinheiro suficiente.";
+			mes "Parece que você nao tem dinheiro suficiente.";
 			close;
 		}
 		Zeny -= .@ResetBoth;

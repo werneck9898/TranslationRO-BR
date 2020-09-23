@@ -52,7 +52,7 @@ aldeba_in,96,181,4	script	Kafra Service	4_F_KAFRA5,{
 	switch(select("Save", "Use Storage", "Rent a Pushcart", "Cancel")) {
 	case 1:
 		mes "[Kafra Leilah]";
-		mes "Seu ponto de recuperaÃ§Ã£o";
+		mes "Seu ponto de recuperação";
 		mes "foi salvo, aqui";
 		mes "na Unidade Central da Corporacao";
 		mes "Kafra. Obrigada.";
@@ -100,7 +100,7 @@ aldeba_in,96,181,4	script	Kafra Service	4_F_KAFRA5,{
 		mes "nao estou em horario de trabalho. Eu";
 		mes "ajudaria se pudesse, mas nao ha";
 		mes "nenhum carrinho disponivel.";
-		mes "Talvez Ã© melhor voce procurar outra Kafra";
+		mes "Talvez é melhor voce procurar outra Kafra";
 		mes "para te ajudar";
 		next;
 		mes "[Kafra Leilah]";
@@ -245,7 +245,7 @@ prontera,152,326,3	script	Kafra Employee::kaf_prontera	4_F_KAFRA6,{
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
 	mes "Bem vindo!";
-	mes "A corporacao Kafra";
+	mes "A corporação Kafra";
 	mes "esta sempre ao lado dos";
 	mes "aventureiros de Midgard";
 	mes "provendo seus excelentes servicos.";
@@ -259,9 +259,9 @@ prontera,151,29,0	script	Kafra Employee::kaf_prontera2	4_F_KAFRA3,{
 	cutin "kafra_03",2;
 	callfunc "F_KafSet";
 	mes "[Kafra Employee]";
-	mes "A Corporacao Kafra";
+	mes "A Corporação Kafra";
 	mes "esta sempre trabalhando para";
-	mes "atende-lo com os nossos servicos.";
+	mes "atende-lo com os nossos serviços.";
 	mes "Posso ajudar de alguma forma?";
 	callfunc "F_Kafra",5,0,0,40,800;
 	savepoint "prontera",150,33;

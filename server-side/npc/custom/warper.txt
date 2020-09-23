@@ -1,4 +1,4 @@
-//===== Hercules Script ======================================
+S//===== Hercules Script ======================================
 //= Warper
 //===== By: ==================================================
 //= Euphy
@@ -28,14 +28,14 @@ function Go; function Disp; function Pick; function Restrict;
 menu	"Teleporte Anterior ^777777["+lastwarp$+"]^000000",-,
 		" ~ Cidades",Towns,
 		" ~ Campos de Batalha",Fields,
-		" ~ Calabou√ßos",Dungeons,
+		" ~ CalabouÁos",Dungeons,
 		" ~ Castelos de Guilda",Castles,
-		" ~ Calabou√ßos de Guilda",Guild_Dungeons,
+		" ~ CalabouÁos de Guilda",Guild_Dungeons,
 		" ~ Instancias",Instances,
 		" ~ Area Especial",Special;
 
 	if (lastwarp$ == "")
-		message strcharinfo(PC_NAME),"Voce ainda n√£o teleportou para nenhum lugar.";
+		message strcharinfo(PC_NAME),"Voce ainda n„o teleportou para nenhum lugar.";
 	else
 		warp lastwarp$,lastwarpx,lastwarpy;
 	end;
