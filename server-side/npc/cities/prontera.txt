@@ -49,16 +49,16 @@ prontera,47,339,5	duplicate(prtguard)	Guard#4pront	8W_SOLDIER
 
 prontera,101,288,3	script	Shuger#pront	4W_M_02,{
 	mes "[Shuger]";
-	mes "Outside the safety of the city, there is a pink beast known as ^000077Poring^000000.";
+	mes "Fora dos muros da cidade, há uma criatura rosa chamada ^000077Poring^000000.";
 	next;
 	mes "[Shuger]";
-	mes "Though it's cute in appearance and does not actively harm people, Poring is known to absorb items that are on the ground into its own body.";
+	mes "Apesar de sua aparência fofinha e da criatura de fato não representar ameaça alguma, o Poring é conhecido por absorver itens que encontram pelo chão para dentro de seu corpo.";
 	next;
 	mes "[Shuger]";
-	mes "So if there's something on the ground that you want to pick up, be careful lest it be consumed by a Poring. Then again... Porings are pretty weak...";
+	mes "Portanto, se houver algo no chão que queira pegar, melhor ser rápido antes que a coisa seja consumiga pelo Poring. E relembrando... Porings são bem fraquinhos...";
 	next;
 	mes "[Shuger]";
-	mes "The green colored ^000077Poporing^000000 is tougher than Poring. Newbies generally make the mistake of attacking it without being aware of its power... So be careful!";
+	mes "O verdinho, é chamado ^000077Poporing^000000 e é mais forte que o Poring. Novatos geralmente cometem o erro de atacá-lo inadivertidos de seu poder... Por isso, tome cuidado!";
 	close;
 }
 

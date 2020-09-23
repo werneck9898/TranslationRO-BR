@@ -43,75 +43,75 @@
 //== Payon =================================================
 payon,246,154,0	script	Lady#payon	4_F_01,{
 	mes "[Lady]";
-	mes "A long time ago,";
-	mes "when Payon was still";
-	mes "developing, many of the";
-	mes "villagers lived in poverty.";
+	mes "Há muito tempo atrás,";
+	mes "quando Payon ainda estava";
+	mes "em desenvolvimento, muitos dos";
+	mes "aledeões viviam em extrema pobreza.";
 	next;
 	mes "[Lady]";
-	mes "Many families had to struggle to survive, and often could not even afford to properly bury their dead. Some people threw their dead into the cave near the village.";
+	mes "Essas famílias tinham que lutar muito para viver, raramente podiam custear um sepultamento adequado aos seus parentes que morriam. Portanto começaram a deixar os corpos de seus entes queridos na caverna próximo a cidade.";
 	next;
 	mes "[Lady]";
-	mes "So in that cave, it is said that there are many walking Zombies,";
-	mes "the dead who cannot rest in peace and are unable to pass on to the next world.";
+	mes "Dizem que hoje, dentro da caverna existem muitos mortos-vivos,";
+	mes "os mortos, incapazes de descansar em paz, se tornaram incapazes de fazer a passagem para o outro mundo.";
 	next;
 	mes "[Lady]";
-	mes "The Zombies, upon sensing the warmth of a human, begin to assault them, but that doesn't mean these Undead hold a grudge against";
-	mes "the living.";
+	mes "Agora dizem que os Zumbis, ao sentirem o calor de um ser humano vivo, começam a atacá-lo imediatamente, mas isso não significa que estes mortos guardam rancor";
+	mes "dos vivos.";
 	next;
 	mes "[Lady]";
-	mes "Their rotten bodies can't leave the cold, dark and damp cave, so it's instinctual for them to attack warmth which would speed up the decomposition of their bodies.";
+	mes "O que acontece é que seus corpos apodrecidos não conseguem deixar a caverna fria e úmida, por cont disso eles atacam, de forma instintiva, para que o calor humano possa acelerar a decomposição de seus corpos.";
 	next;
 	mes "[Lady]";
-	mes "The Zombies in the Payon Cave";
-	mes "may be spooky, but their story";
-	mes "is also kind of tragic.";
+	mes "Os Zumbis da Cavena de Payon";
+	mes "podem ser assustadores, mas sua história";
+	mes "é também terrivelmente trágica.";
 	close;
 }
 
 payon,134,211,4	script	Young Man#payon	1_M_ORIENT01,{
 	mes "[Young Man]";
-	mes "From your attire,";
-	mes "I can see that you";
-	mes "are a stranger here.";
-	mes "Welcome to Payon.";
+	mes "Pelas suas roupas,";
+	mes "Posso ver que é";
+	mes "um estrangeiro.";
+	mes "Bem-vindo a Payon.";
 	next;
 	mes "[Young Man]";
-	mes "You must be a well-experienced fighter, otherwise you'd never be able to arrive here after passing the steep, mountainous areas and dangerous creatures surrounding this city.";
+	mes "Você deve ser um aventureiro muito experiente, caso contrário você nunca teria sido capaz de fazer o caminho até aqui, a região ao redor da cidade, com suas montanhas e penhascos, é repleta de monstros perigosos.";
 	next;
 	mes "[Young Man]";
-	mes "I'm no expert at fighting, but someone once told me that sheer strength alone won't be able to win some battles.";
+	mes "Eu não sou muito bom com a espada, mas de toda forma alguém me disse uma vez que a força física, por si mesma, não é forte o bastante para sempre vencer sozinha.";
 	next;
 	mes "[Young Man]";
-	mes "Sometimes, you may encounter creatures protected by a hard-shell that don't be damaged by physical attacks. Only psychic power, like Magic, can easily defeat such creatures.";
+	mes "Havrá momentos em que você encontrará criaturas protegidas por carapaças resistentes que as protegem completamente de ataques físicos, como o de espadas. Nessas situações apenas a Magia será forte o suficiente para dar um jeito nessas criaturas.";
 	next;
 	mes "[Young Man]";
-	mes "Of course, not everyone can study magic. The point is that you should keep different kinds of friends and comrades close to you, as you can't possibly handle every situation by yourself.";
+	mes "É claro que não são todos que estudam magia. O ponto é que você deveria sempre buscar fazer amigos com diferentes habilidades, para que seja possível lidar com todo tipo de situação que se pode encontrar nesse mundo.";
 	close;
 }
 
 payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "[Young Man]";
-	mes "I remember the story my dearly departed grandfather has told me.";
+	mes "Lembro de meu falecido avô ter me contado uma história sobre isto.";
 	next;
 	mes "[Young Man]";
-	mes "It's about this Amulet that possesses an Evil Power.";
-	mes "With it, you could awaken";
-	mes "the Dead from the Grave.";
+	mes "Ele me disse que este Amuleto aqui possuía um antigo Poder Maligno.";
+	mes "E com esse poder seria possível";
+	mes "levantar os Mortos de seus Túmulos.";
 	next;
 	mes "[Young Man]";
-	mes "Well, I'm not sure if it's true or not. But, I wonder, what would happen if I used it to summon";
-	mes "my grandfather from the other realm....";
+	mes "Bom, eu não sei se isso é verdade, mas vivo me perguntando o que aconteceria";
+	mes "se eu usasse para chamar meu avô do outro mundo...";
 	next;
 	mes "[?]";
-	mes "^3299CCNever think";
-	mes "of such a thing...";
-	mes "My son.^000000";
+	mes "^3299CCNunca pense";
+	mes "em fazer uma coisa dessas...";
+	mes "Meu filho.^000000";
 	next;
 	mes "[Young Man]";
-	mes "EEEEEEK-!";
-	mes "What was that?!";
-	mes "G-grandpa...?";
+	mes "AAAAAAH-!";
+	mes "O q-que f-foi isso?!";
+	mes "V-vo-vovô...?";
 	next;
 	mes "...";
 	next;
@@ -119,7 +119,7 @@ payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "......";
 	mes "[Young Man]";
 	mes "...";
-	mes "G-God...?";
+	mes "D-deus...?";
 	close;
 }
 
@@ -128,63 +128,63 @@ payon,158,246,3	script	Guardsman#payon	4_M_PAY_SOLDIER,3,3,{
 
 OnTouch:
 	mes "[Guardsman]";
-	mes "This is the Central Palace of Payon. This place is open to the public, but in accordance with our laws, you must behave in an orderly fashion once inside.";
+	mes "Este é o Palácio Central de Payon. É aberto ao público, mas de acordo com nossas leis, você deve se portar de forma respeitosa lá dentro.";
 	next;
 	mes "[Guardsman]";
-	mes "In the interest of protecting the peace, we will disarm your equipment once you enter.";
-	mes "Your cooperation is";
-	mes "much appreciated.";
+	mes "Para fins de manter a ordem deste patrimônio local, teremos de reter seus equipamentos aqui do lado de fora.";
+	mes "A cidade de Payon";
+	mes "agradece a cooperação.";
 	nude;
 	close;
 }
 
 payon,249,156,1	script	Woman#payon	1_F_01,{
 	mes "[Woman]";
-	mes "Welcome to Payon.";
-	mes "You must have had";
-	mes "a hard time getting";
-	mes "through the Payon Forest.";
-	mes "How was your trip?";
+	mes "Bem-vindo a Payon.";
+	mes "Imagino que tenha";
+	mes "enfrentado dificuldades";
+	mes "para atravessar a Floresta Payon.";
+	mes "Como foi a viagem?";
 	next;
 	mes "[Woman]";
-	mes "We've been receiving less tourists because of the increasing numbers of monsters outside, so it's quieter nowadays.";
+	mes "Nós temos recebido menos turistas devido a quantidade crescente de monstros do lado de fora, por conta disso a cidade se tornou bem mais quieta.";
 	next;
 	mes "[Woman]";
-	mes " To be honest, things are getting tough because of all those monsters. ^666666*Sigh...*^000000";
+	mes " Pra ser sincera, as coisas estão piorando cada vez mais por conta desses monstros. ^666666*Suspiro...*^000000";
 	next;
 	mes "[Woman]";
 	if (Sex == SEX_MALE)
-		mes "Whoa~! I just noticed those arms of yours look pretty solid. You look pretty strong, guy. Just how many monsters have you killed?!";
+		mes "Uau~! Agora percebi esses seus braços robustos. Você parece bem forte, rapaz. Quantos montros você já matou por aí?!";
 	else
-		mes "Oooh! I didn't notice before, but you look pretty strong beneath all of that feminine charm.";
+		mes "Uau! Não tinha reparado, por baixo de todo esse charme feminino temos aqui uma mulher muito forte. Você deve ter matado muitos monstros no caminho.";
 	next;
 	mes "[Woman]";
-	mes "Hey, I know of a good place for you to hunt. It just so happens that there's a cave in the middle of Payon.";
+	mes "Eu conheço um bom lugar para você caçar mais monstros. É a Caverna de Payon!";
 	next;
 	mes "[Woman]";
-	mes "If you're interested, just head North, pass the forest, and go towards the Northwest. You'll know you've arrived when you're in the place filled with the smell of stinky monsters.";
+	mes "Se estiver interessado, siga para o Norte, passe pela floresta, e então faça seu caminho para Noroeste. Vai saber que chegou quando encontrar uma caverna tomada pelo fedor de carne podre.";
 	next;
-	switch(select("It sounds dangerous!", "I better prepare myself...!", "That's a nice dress you're wearing~")) {
+	switch(select("Parece perigoso!", "É melhor eu me preparar...!", "Esse vestido que está usando é lindo~")) {
 	case 1:
 		mes "[Woman]";
-		mes "Oh come on, don't be a coward.";
-		mes "It's just a simple cave filled with normal monsters. It's quite safe. We've even established an Archer Village near that cave to prevent misfortunate incidents. Hohoohoho~ ";
+		mes "Ah vamaos lá, não seja covarde.";
+		mes "É só uma caverninha cheia de monstros normais. É relativamente seguro. Nós até estabelecemos a Vila dos Arqueiros perto da caverna para evitar incidentes infelizes. Hahahaha~ ";
 		break;
 	case 2:
 		mes "[Woman]";
-		mes "Oh don't worry about any preparations. There's a Tool Dealer right in front of the cave, so you can purchase anything you need from my husban, er, that guy~";
+		mes "Ah não se preocupe muito com sua preparação. Logo na frente da caverna tem um Vendedor de Ferramentas, tudo que precisar você pode comprar na mão do meu marido, quer dizer, do vendedor lá~";
 		break;
 	case 3:
 		mes "[Woman]";
-		mes "Oh hohohoho!";
-		mes "So you've noticed?";
-		mes "I hear this is the";
-		mes "latest trend in Prontera";
-		mes "these days.";
+		mes "Oh hahahaha!";
+		mes "Então você reparou?";
+		mes "Fique sabendo que é a";
+		mes "última moda em Prontera.";
+		mes "Meu marido que me deu.";
 		next;
 		mes "[Woman]";
-		mes "Most of the women in this town don't know anything about fashion! My husband bought this for me as";
-		mes "a present. He makes quite a lot of money, you know. Hohohoho~";
+		mes "A maioria das mulheres da cidade não sabem nada sobre moda e estilo! Meu marido trouxe esse vestido";
+		mes "de Prontera e me deu de presente. Sabe como é, ele ganha muito dinheiro. Hahahaha~";
 		break;
 	}
 	close;
