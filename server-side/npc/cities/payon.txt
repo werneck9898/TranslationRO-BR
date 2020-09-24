@@ -43,65 +43,65 @@
 //== Payon =================================================
 payon,246,154,0	script	Lady#payon	4_F_01,{
 	mes "[Lady]";
-	mes "H· muito tempo atr·s,";
+	mes "H√° muito tempo atr√°s,";
 	mes "quando Payon ainda estava";
 	mes "em desenvolvimento, muitos dos";
-	mes "aledeıes viviam em extrema pobreza.";
+	mes "alede√µes viviam em extrema pobreza.";
 	next;
 	mes "[Lady]";
-	mes "Essas famÌlias tinham que lutar muito para viver, raramente podiam custear um sepultamento adequado aos seus parentes que morriam. Portanto comeÁaram a deixar os corpos de seus entes queridos na caverna prÛximo a cidade.";
+	mes "Essas fam√≠lias tinham que lutar muito para viver, raramente podiam custear um sepultamento adequado aos seus parentes que morriam. Portanto come√ßaram a deixar os corpos de seus entes queridos na caverna pr√≥ximo a cidade.";
 	next;
 	mes "[Lady]";
 	mes "Dizem que hoje, dentro da caverna existem muitos mortos-vivos,";
 	mes "os mortos, incapazes de descansar em paz, se tornaram incapazes de fazer a passagem para o outro mundo.";
 	next;
 	mes "[Lady]";
-	mes "Agora dizem que os Zumbis, ao sentirem o calor de um ser humano vivo, comeÁam a atac·-lo imediatamente, mas isso n„o significa que estes mortos guardam rancor";
+	mes "Agora dizem que os Zumbis, ao sentirem o calor de um ser humano vivo, come√ßam a atac√°-lo imediatamente, mas isso n√£o significa que estes mortos guardam rancor";
 	mes "dos vivos.";
 	next;
 	mes "[Lady]";
-	mes "O que acontece È que seus corpos apodrecidos n„o conseguem deixar a caverna fria e ˙mida, por cont disso eles atacam, de forma instintiva, para que o calor humano possa acelerar a decomposiÁ„o de seus corpos.";
+	mes "O que acontece √© que seus corpos apodrecidos n√£o conseguem deixar a caverna fria e √∫mida, por cont disso eles atacam, de forma instintiva, para que o calor humano possa acelerar a decomposi√ß√£o de seus corpos.";
 	next;
 	mes "[Lady]";
 	mes "Os Zumbis da Cavena de Payon";
-	mes "podem ser assustadores, mas sua histÛria";
-	mes "È tambÈm terrivelmente tr·gica.";
+	mes "podem ser assustadores, mas sua hist√≥ria";
+	mes "√© tamb√©m terrivelmente tr√°gica.";
 	close;
 }
 
 payon,134,211,4	script	Young Man#payon	1_M_ORIENT01,{
 	mes "[Young Man]";
 	mes "Pelas suas roupas,";
-	mes "Posso ver que È";
+	mes "Posso ver que √©";
 	mes "um estrangeiro.";
 	mes "Bem-vindo a Payon.";
 	next;
 	mes "[Young Man]";
-	mes "VocÍ deve ser um aventureiro muito experiente, caso contr·rio vocÍ nunca teria sido capaz de fazer o caminho atÈ aqui, a regi„o ao redor da cidade, com suas montanhas e penhascos, È repleta de monstros perigosos.";
+	mes "Voc√™ deve ser um aventureiro muito experiente, caso contr√°rio voc√™ nunca teria sido capaz de fazer o caminho at√© aqui, a regi√£o ao redor da cidade, com suas montanhas e penhascos, √© repleta de monstros perigosos.";
 	next;
 	mes "[Young Man]";
-	mes "Eu n„o sou muito bom com a espada, mas de toda forma alguÈm me disse uma vez que a forÁa fÌsica, por si mesma, n„o È forte o bastante para sempre vencer sozinha.";
+	mes "Eu n√£o sou muito bom com a espada, mas de toda forma algu√©m me disse uma vez que a for√ßa f√≠sica, por si mesma, n√£o √© forte o bastante para sempre vencer sozinha.";
 	next;
 	mes "[Young Man]";
-	mes "Havr· momentos em que vocÍ encontrar· criaturas protegidas por carapaÁas resistentes que as protegem completamente de ataques fÌsicos, como o de espadas. Nessas situaÁıes apenas a Magia ser· forte o suficiente para dar um jeito nessas criaturas.";
+	mes "Havr√° momentos em que voc√™ encontrar√° criaturas protegidas por carapa√ßas resistentes que as protegem completamente de ataques f√≠sicos, como o de espadas. Nessas situa√ß√µes apenas a Magia ser√° forte o suficiente para dar um jeito nessas criaturas.";
 	next;
 	mes "[Young Man]";
-	mes "… claro que n„o s„o todos que estudam magia. O ponto È que vocÍ deveria sempre buscar fazer amigos com diferentes habilidades, para que seja possÌvel lidar com todo tipo de situaÁ„o que se pode encontrar nesse mundo.";
+	mes "√â claro que n√£o s√£o todos que estudam magia. O ponto √© que voc√™ deveria sempre buscar fazer amigos com diferentes habilidades, para que seja poss√≠vel lidar com todo tipo de situa√ß√£o que se pode encontrar nesse mundo.";
 	close;
 }
 
 payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "[Young Man]";
-	mes "Lembro de meu falecido avÙ ter me contado uma histÛria sobre isto.";
+	mes "Lembro de meu falecido av√¥ ter me contado uma hist√≥ria sobre isto.";
 	next;
 	mes "[Young Man]";
-	mes "Ele me disse que este Amuleto aqui possuÌa um antigo Poder Maligno.";
-	mes "E com esse poder seria possÌvel";
-	mes "levantar os Mortos de seus T˙mulos.";
+	mes "Ele me disse que este Amuleto aqui possu√≠a um antigo Poder Maligno.";
+	mes "E com esse poder seria poss√≠vel";
+	mes "levantar os Mortos de seus T√∫mulos.";
 	next;
 	mes "[Young Man]";
-	mes "Bom, eu n„o sei se isso È verdade, mas vivo me perguntando o que aconteceria";
-	mes "se eu usasse para chamar meu avÙ do outro mundo...";
+	mes "Bom, eu n√£o sei se isso √© verdade, mas vivo me perguntando o que aconteceria";
+	mes "se eu usasse para chamar meu av√¥ do outro mundo...";
 	next;
 	mes "[?]";
 	mes "^3299CCNunca pense";
@@ -111,7 +111,7 @@ payon,176,85,0	script	Young Man#2payon	4_M_ORIENT01,{
 	mes "[Young Man]";
 	mes "AAAAAAH-!";
 	mes "O q-que f-foi isso?!";
-	mes "V-vo-vovÙ...?";
+	mes "V-vo-vov√¥...?";
 	next;
 	mes "...";
 	next;
@@ -128,12 +128,12 @@ payon,158,246,3	script	Guardsman#payon	4_M_PAY_SOLDIER,3,3,{
 
 OnTouch:
 	mes "[Guardsman]";
-	mes "Este È o Pal·cio Central de Payon. … aberto ao p˙blico, mas de acordo com nossas leis, vocÍ deve se portar de forma respeitosa l· dentro.";
+	mes "Este √© o Pal√°cio Central de Payon. √â aberto ao p√∫blico, mas de acordo com nossas leis, voc√™ deve se portar de forma respeitosa l√° dentro.";
 	next;
 	mes "[Guardsman]";
-	mes "Para fins de manter a ordem deste patrimÙnio local, teremos de reter seus equipamentos aqui do lado de fora.";
+	mes "Para fins de manter a ordem deste patrim√¥nio local, teremos de reter seus equipamentos aqui do lado de fora.";
 	mes "A cidade de Payon";
-	mes "agradece a cooperaÁ„o.";
+	mes "agradece a coopera√ß√£o.";
 	nude;
 	close;
 }
@@ -147,44 +147,44 @@ payon,249,156,1	script	Woman#payon	1_F_01,{
 	mes "Como foi a viagem?";
 	next;
 	mes "[Woman]";
-	mes "NÛs temos recebido menos turistas devido a quantidade crescente de monstros do lado de fora, por conta disso a cidade se tornou bem mais quieta.";
+	mes "N√≥s temos recebido menos turistas devido a quantidade crescente de monstros do lado de fora, por conta disso a cidade se tornou bem mais quieta.";
 	next;
 	mes "[Woman]";
-	mes " Pra ser sincera, as coisas est„o piorando cada vez mais por conta desses monstros. ^666666*Suspiro...*^000000";
+	mes " Pra ser sincera, as coisas est√£o piorando cada vez mais por conta desses monstros. ^666666*Suspiro...*^000000";
 	next;
 	mes "[Woman]";
 	if (Sex == SEX_MALE)
-		mes "Uau~! Agora percebi esses seus braÁos robustos. VocÍ parece bem forte, rapaz. Quantos montros vocÍ j· matou por aÌ?!";
+		mes "Uau~! Agora percebi esses seus bra√ßos robustos. Voc√™ parece bem forte, rapaz. Quantos montros voc√™ j√° matou por a√≠?!";
 	else
-		mes "Uau! N„o tinha reparado, por baixo de todo esse charme feminino temos aqui uma mulher muito forte. VocÍ deve ter matado muitos monstros no caminho.";
+		mes "Uau! N√£o tinha reparado, por baixo de todo esse charme feminino temos aqui uma mulher muito forte. Voc√™ deve ter matado muitos monstros no caminho.";
 	next;
 	mes "[Woman]";
-	mes "Eu conheÁo um bom lugar para vocÍ caÁar mais monstros. … a Caverna de Payon!";
+	mes "Eu conhe√ßo um bom lugar para voc√™ ca√ßar mais monstros. √â a Caverna de Payon!";
 	next;
 	mes "[Woman]";
-	mes "Se estiver interessado, siga para o Norte, passe pela floresta, e ent„o faÁa seu caminho para Noroeste. Vai saber que chegou quando encontrar uma caverna tomada pelo fedor de carne podre.";
+	mes "Se estiver interessado, siga para o Norte, passe pela floresta, e ent√£o fa√ßa seu caminho para Noroeste. Vai saber que chegou quando encontrar uma caverna tomada pelo fedor de carne podre.";
 	next;
-	switch(select("Parece perigoso!", "… melhor eu me preparar...!", "Esse vestido que est· usando È lindo~")) {
+	switch(select("Parece perigoso!", "√â melhor eu me preparar...!", "Esse vestido que est√° usando √© lindo~")) {
 	case 1:
 		mes "[Woman]";
-		mes "Ah vamaos l·, n„o seja covarde.";
-		mes "… sÛ uma caverninha cheia de monstros normais. … relativamente seguro. NÛs atÈ estabelecemos a Vila dos Arqueiros perto da caverna para evitar incidentes infelizes. Hahahaha~ ";
+		mes "Ah vamaos l√°, n√£o seja covarde.";
+		mes "√â s√≥ uma caverninha cheia de monstros normais. √â relativamente seguro. N√≥s at√© estabelecemos a Vila dos Arqueiros perto da caverna para evitar incidentes infelizes. Hahahaha~ ";
 		break;
 	case 2:
 		mes "[Woman]";
-		mes "Ah n„o se preocupe muito com sua preparaÁ„o. Logo na frente da caverna tem um Vendedor de Ferramentas, tudo que precisar vocÍ pode comprar na m„o do meu marido, quer dizer, do vendedor l·~";
+		mes "Ah n√£o se preocupe muito com sua prepara√ß√£o. Logo na frente da caverna tem um Vendedor de Ferramentas, tudo que precisar voc√™ pode comprar na m√£o do meu marido, quer dizer, do vendedor l√°~";
 		break;
 	case 3:
 		mes "[Woman]";
 		mes "Oh hahahaha!";
-		mes "Ent„o vocÍ reparou?";
-		mes "Fique sabendo que È a";
-		mes "˙ltima moda em Prontera.";
+		mes "Ent√£o voc√™ reparou?";
+		mes "Fique sabendo que √© a";
+		mes "√∫ltima moda em Prontera.";
 		mes "Meu marido que me deu.";
 		next;
 		mes "[Woman]";
-		mes "A maioria das mulheres da cidade n„o sabem nada sobre moda e estilo! Meu marido trouxe esse vestido";
-		mes "de Prontera e me deu de presente. Sabe como È, ele ganha muito dinheiro. Hahahaha~";
+		mes "A maioria das mulheres da cidade n√£o sabem nada sobre moda e estilo! Meu marido trouxe esse vestido";
+		mes "de Prontera e me deu de presente. Sabe como √©, ele ganha muito dinheiro. Hahahaha~";
 		break;
 	}
 	close;
@@ -311,59 +311,59 @@ payon,210,110,1	script	Drunkard#payon	2_M_PHARMACIST,{
 
 payon,132,235,3	script	Monster Scholar#02	4W_M_02,{
 	mes "[Monster Scholar Vuicokk]";
-	mes "Nice to meet you.";
-	mes "I am called Vuicokk.";
-	mes "I am a scholar in the Monster Research organization of the Rune Midgarts Kingdom. Do you have any questions about monsters?";
+	mes "Prazer em conhecer.";
+	mes "Meu nome √© Vuicokk.";
+	mes "Sou um pesquisador na Organiza√ß√£o de Pesquisa de Monstros no Reino de Rune-Midgard. Tem alguma coisa que gostaria de saber sobre monstros?";
 	next;
-	switch(select("Any news?", "Undead Monsters?", "Monster Research Organization?")) {
+	switch(select("O que faz em Payon?", "O que pode me dizer sobre mortos-vivos?", "Organiza√ß√£o de Pesquisa de Monstros?")) {
 	case 1:
 		mes "[Monster Scholar Vuicokk]";
-		mes "Payon is located deep inside the forest where it can easily be attacked by hordes of monsters. Monsters also come from the dangerous cave located near town.";
+		mes "Payon est√° localizada no cora√ß√£o da floresta tornando-a um alvo f√°cil para ordas de monstros. Fora os monstros perigosos que vivem nas cavernas ao redor da cidade.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "Since Undead monsters roam the Payon Cave, it has attracted the attention of the monster academic world. My job here is to analyze their characteristics.";
+		mes "Desde que os mortos-vivos vagam pela Caverna de Payon, a cidade tem atra√≠do aten√ß√£o do mundo acad√™mico. Estou aqui em Payon para analisar o comportamento desses monstros.";
 		break;
 	case 2:
 		mes "[Monster Scholar Vuicokk]";
-		mes "What is most remarkable of the Undead monsters in Payon is their origin Most of them used to be citizens of Payon!";
+		mes "A quest√£o mais marcante sobre os monstros da Caverna de Payon √© que a maioria deles j√° foi um cidad√£o de Payon!";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "However, these souls are";
-		mes "unable to rest in peace and still wander about as Undead bound";
-		mes "to this world.";
+		mes "Entretanto, suas almas s√£o incapazes";
+		mes "de descan√ßar em paz e seus corpos ficaram vagando como mortos-vivos";
+		mes "presos neste mundo.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "These monsters cannot be classified with other monsters that have mutated from living creatures, so our wise and benevolent ruler, King Tristram III, has taken a great interest in Payon's Undead.";
+		mes "√â imposs√≠vel classificar estas monstruosidades nas tabelas tradicionais como muta√ß√µes de criaturas vivas, por isso nosso benevolente e s√°bio governante, Rei Tristram III, possui bastante interesse nos Mortos-vivos de Payon's.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "After all, some of these";
-		mes "Undead used to belong to";
-		mes "the Rune-Midgarts Kingdom.";
+		mes "Pra todos os efeitos, alguns desses";
+		mes "Mortos j√° foram cidad√£os";
+		mes "do Reino de Rune-Midgard.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "As his subjects,";
-		mes "King Tristram III";
-		mes "feels some responsbility";
-		mes "to release their souls.";
+		mes "Sendo seus s√∫ditos,";
+		mes "o Rei Tristram III";
+		mes "acredita ser sua responsabilidade";
+		mes "libertar estas almas.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "His Majesty has been supporting";
-		mes "us in our search to discover how to eliminate all of the Undead in this world. We will try to accomplish this goal as soon as we";
-		mes "possibly can.";
+		mes "Sua Majestade tem financiado";
+		mes "nossa pesquisa sobre como eliminar todos os Mortos-vivos nesse mundo. E vamos focar nossos esfor√ßos para terminar";
+		mes "essa tarefa o mais r√°pido poss√≠vel.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "For the safety of our people,";
-		mes "for the sake of their bereaved families, and in accordance with King Tristram III's order, we must succeed!";
+		mes "Pela seguran√ßa do nosso povo,";
+		mes "pelo bem de suas fam√≠lias em luto eterno, e para honrar as ordens do Rei Tristram III, n√≥s vamos conseguir!";
 		break;
 	case 3:
 		mes "[Monster Scholar Vuicokk]";
-		mes "As you may well know,";
-		mes "monsters have been endlessly spawning in this world, and the threat of their attacks is grows greater every day.";
+		mes "Como voc√™ j√° deve ter percebido,";
+		mes "os monstros tem aparecido constantemente nesse mundo, and the threat of their attacks is grows greater every day.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
-		mes "In response to this,";
-		mes " the Monster Research";
-		mes "Organization has been formed.";
+		mes "Em resposta a isto,";
+		mes "a Organiza√ß√£o de Pesquisa";
+		mes "sobre Monstros foi formada.";
 		next;
 		mes "[Monster Scholar Vuicokk]";
 		mes "Talented people around the world have joined forces in an effort to deduce the origin of monsters, and a way to eliminate them once and for all.";
