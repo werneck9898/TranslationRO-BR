@@ -1,24 +1,6 @@
-# TranslationRO-BR
- ## A client-side and server-side translation for Ragnarok to Brazilian Portuguese
+# TranslationRO-BR 
 
-
-### The client-side translation was made using assets from bRO client and with the help of some files scattered in rAthena forums.
-
-I packed the client-side translation into 2 folders: 
-
-1) The data folder containing portuguese assets
-2) and the System folder with the correct lub/lua files for portuguese,
-
-You can make a ".grf" file with the data folder and use it on your client instead of using a data folder
-
-**Don't forget to Diff your Ragexe with a tool such as Nemo and correct the lub files path with the .lub file name 
-on System folder**
-
-Obs: to translate the NPCs to portuguese you need to change the files server-side, on the folder "yourEmulator/npc".
-I'm working on that and as I progress i will share the files here.
-
-Any questions i'm on rAthena discord support chat.
-
+## Português
 
 ### A tradução client-side foi feita usando arquivos do cliente do bRO e com alguns arquivos que encontrei nos forums do rAthena.
 
@@ -43,6 +25,28 @@ Ja comecei a fazer isso e estarei feliz e estou compartilhando a medida em que e
 Por padrão esta com codificação UTF-8 ja que foram escritos originalmente em ingles.**
 
 Qualquer pergunta estou lá pelo discord do rAthena.
+
+## English
+
+## A client-side and server-side translation for Ragnarok to Brazilian Portuguese
+
+### The client-side translation was made using assets from bRO client and with the help of some files scattered in rAthena forums.
+
+I packed the client-side translation into 2 folders: 
+
+1) The data folder containing portuguese assets
+2) and the System folder with the correct lub/lua files for portuguese,
+
+You can make a ".grf" file with the data folder and use it on your client instead of using a data folder
+
+**Don't forget to Diff your Ragexe with a tool such as Nemo and correct the lub files path with the .lub file name 
+on System folder**
+
+Obs: to translate the NPCs to portuguese you need to change the files server-side, on the folder "yourEmulator/npc".
+I'm working on that and as I progress i will share the files here.
+
+Any questions i'm on rAthena discord support chat.
+
 
 ### Many thanks to https://github.com/hvg249 and https://github.com/sr-bethonico for helping.
 ### Agradeço ao https://github.com/sr-bethonico e https://github.com/hvg249  pela ajuda.
